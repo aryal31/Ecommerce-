@@ -16,7 +16,7 @@ const Options = () => {
       <ul>groceries & pets</ul>
       <ul>Health & beauty</ul></div>
       <div className='flex-1 px-40'>
-        <img src={optionsimg} alt="" className='w-full h-full' />
+        <img src={optionsimg} alt="" className='w-full h-full px-[40px] py-[45px]' />
       </div>
     </div>
     </>
