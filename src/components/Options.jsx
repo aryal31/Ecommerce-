@@ -1,4 +1,5 @@
 import React from 'react'
+import optionsimg from '../assets/images/optionsimg.png'
 
 const Options = () => {
   return (
@@ -14,8 +15,8 @@ const Options = () => {
       <ul>Babys & toys</ul>
       <ul>groceries & pets</ul>
       <ul>Health & beauty</ul></div>
-      <div  >
-
+      <div className='flex-1 px-40'>
+        <img src={optionsimg} alt="" className='w-full h-full' />
       </div>
     </div>
     </>
