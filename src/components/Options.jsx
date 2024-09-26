@@ -1,13 +1,16 @@
 import React from 'react'
 import optionsimg from '../assets/images/optionsimg.png'
+import { SlArrowRight } from "react-icons/sl";
 
 const Options = () => {
   return (
     <>
     <div className='flex px-[30px] lg:px-[135px] border-r '>
       <div className='border-[#d9d9d9] mt-[40px] flex flex-col gap-[16px]'>
-      <ul>Woman's fahion</ul>
-      <ul>men's fashion</ul>
+      <ul className='flex items-center space-x-2'>
+        <li>Woman's fahion</li> <li><SlArrowRight /></li></ul>
+        <ul className='flex items-center space-x-7'>
+        <li>Men's fashion</li> <li><SlArrowRight /></li></ul>
       <ul>Electronics</ul>
       <ul>Home and lifestyle</ul>
       <ul>Medicine</ul>

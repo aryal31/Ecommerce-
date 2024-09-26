@@ -6,6 +6,8 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
+import { HiArrowRight } from "react-icons/hi2";
+
 
 
 
@@ -17,7 +19,10 @@ const Footer = () => {
        <ul className='font-bold text-[25px] mb-[24px]'>Exclusive</ul>
        <ul className='mb-[16px]'>Subscribe</ul>
        <ul  className='mb-[16px]'>Get 10% off your first order</ul>
-       <ul><input className='pl-[10px] py-[3px] border-2 border-white bg-black rounded-[4px] border-radius-[5px]' type="text" placeholder='Enter your email'/></ul>
+       <div className='flex items-center px-[3px] py-[4px] border-2 border-white bg-black rounded-[4px] border-radius-[5px]'>
+       <ul><input className='bg-transparent' type="text" placeholder='Enter your email'/></ul>
+       <HiArrowRight  className='text-[30px]'/>
+       </div>
       </div>
       <div>
         <ul className='text-[20px] mb-[24px]'>support</ul>
