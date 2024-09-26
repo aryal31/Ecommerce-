@@ -1,7 +1,8 @@
 import React from "react";
-import Top from "./components/top";
+import Top from "./components/Top";
 import Navbar from "./components/Navbar";
 import Options from "./components/Options";
+import Footer from "./components/Footer";
 
 
 const App = () => {
@@ -9,6 +10,7 @@ const App = () => {
     <Top></Top>
     <Navbar></Navbar>
     <Options></Options>
+    <Footer></Footer>
   </div>;
 };
 
