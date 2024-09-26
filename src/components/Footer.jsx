@@ -1,4 +1,3 @@
-import React, { useEffect } from "react";
 import appstore from "../assets/images/appstore.png";
 import googleplay from "../assets/images/googleplay.png";
 import qrcode from "../assets/images/qrcode.png";

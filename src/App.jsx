@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import Heading from "./components/Heading";
 import Wrapper from "./components/Wrapper";
 import Flashsale from "./components/Flashsale";
+import Itemcard from "./components/Itemcard";
 
 
 const App = () => {
@@ -15,11 +16,12 @@ const App = () => {
   return <div>
 
     <Top></Top>
-    <Navbar category={category} setcategory={setcategory}></Navbar>
+    <Navbar category={category} setcategory={setcategory}/>
     <Options></Options>
     <Flashsale></Flashsale>
+    <Itemcard></Itemcard>
     <Footer></Footer>
-
+    
   </div>;
 };
 
