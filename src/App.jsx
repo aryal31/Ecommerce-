@@ -7,6 +7,13 @@ import Heading from "./components/Heading";
 import Wrapper from "./components/Wrapper";
 import Flashsale from "./components/Flashsale";
 import Itemcard from "./components/Itemcard";
+import Viewallproductsbutton from "./components/Viewallproductsbutton";
+import Browsebycategory from "./components/Browsebycategory";
+import Line from "./components/Line";
+import Bestsellingproducts from "./components/Bestsellingproducts";
+import Ourproducts from "./components/Ourproducts";
+import Featured from "./components/Featured";
+
 
 
 const App = () => {
@@ -15,12 +22,20 @@ const App = () => {
 
   return <div>
 
-    <Top></Top>
+    <Top/>
     <Navbar category={category} setcategory={setcategory}/>
-    <Options></Options>
-    <Flashsale></Flashsale>
-    <Itemcard></Itemcard>
-    <Footer></Footer>
+    <Options/>
+    <Flashsale/>
+    <Itemcard/>
+    <Viewallproductsbutton/>
+    <Line/>
+    <Browsebycategory/>
+    <Line></Line>
+    <Bestsellingproducts/>
+    <Ourproducts/>
+    <Featured/>
+    <Footer/>
+    
     
   </div>;
 };

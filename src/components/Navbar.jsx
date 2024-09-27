@@ -51,7 +51,7 @@ const Navbar = ({ category, setcategory }) => {
           <FiShoppingCart className="size-[30px]" />
         </div>
       </div>
-      <div className="bg-[#D9D9D9] h-[1px]"></div>
+      <div className="bg-[#B3B3B3B3] h-[1px]"></div>
     </div>
   );
 };

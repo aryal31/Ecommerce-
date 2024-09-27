@@ -6,7 +6,7 @@ const Options = () => {
   return (
     <>
     <div className='flex px-[30px] lg:px-[135px] border-r '>
-      <div className='border-[#d9d9d9] mt-[40px] flex flex-col gap-[16px]'>
+      <div className='border-[#B3B3B3B3] mt-[40px] flex flex-col gap-[16px]'>
       <ul className='flex items-center space-x-2'>
         <li>Woman's fahion</li> <li><SlArrowRight /></li></ul>
         <ul className='flex items-center space-x-7'>
