@@ -7,7 +7,7 @@ import { FaRegHeart } from "react-icons/fa";
 
 const Itemcard = () => {
   return (
-    <Wrapper>
+    
       <div className="h-[350px] w-[270px] flex flex-col relative group">
         <div className=" bg-[#F5F5F5] h-[250px] ">
           <div>
@@ -36,7 +36,7 @@ const Itemcard = () => {
           <span className="ml-1 text-[#808080]">(20)</span>{" "}
         </div>
       </div>
-    </Wrapper>
+
   );
 };
 

@@ -1,5 +1,4 @@
 import React from "react";
-import Wrapper from "./Wrapper";
 
 const Heading = ({ date, title }) => {
   return (

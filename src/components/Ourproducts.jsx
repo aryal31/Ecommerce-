@@ -3,6 +3,7 @@ import Heading from "./Heading";
 import Arrow from "./Arrow";
 import Wrapper from "./Wrapper";
 import Viewallproductsbutton from "./Viewallproductsbutton";
+import Itemcard from "./Itemcard";
 
 const Ourproducts = () => {
   return (
@@ -12,7 +13,12 @@ const Ourproducts = () => {
           <Heading date="Our products" title="explore our products" />
           <Arrow />
         </div>
-        <div className="flex"> 
+        <div className="flex gap-4"> 
+        <Itemcard></Itemcard>
+        <Itemcard></Itemcard>
+        <Itemcard></Itemcard>
+        <Itemcard></Itemcard>
+
 
         </div>
         <Viewallproductsbutton/>

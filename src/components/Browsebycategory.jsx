@@ -18,7 +18,7 @@ const Browsebycategory = () => {
           <Heading date="categories" title="Browse By Categories" />
           <Arrow />
         </div>
-        <div className="flex justify-center items-center mt-[60px] gap-[30px]">
+        <div className="flex justify-center items-center mt-[60px] space-x-">
           <Categoryitemsdesign device="phones" IconComponent={CiMobile3} />
           <Categoryitemsdesign
             device="laptops"

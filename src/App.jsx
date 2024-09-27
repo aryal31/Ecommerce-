@@ -13,6 +13,8 @@ import Line from "./components/Line";
 import Bestsellingproducts from "./components/Bestsellingproducts";
 import Ourproducts from "./components/Ourproducts";
 import Featured from "./components/Featured";
+import Viewallbutton from "./components/Viewallbutton";
+
 
 
 
@@ -26,7 +28,7 @@ const App = () => {
     <Navbar category={category} setcategory={setcategory}/>
     <Options/>
     <Flashsale/>
-    <Itemcard/>
+    
     <Viewallproductsbutton/>
     <Line/>
     <Browsebycategory/>
