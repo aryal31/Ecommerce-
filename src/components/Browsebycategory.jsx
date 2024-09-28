@@ -15,10 +15,10 @@ const Browsebycategory = () => {
     <>
       <Wrapper>
         <div className="flex mt-[140px] justify-between">
-          <Heading date="categories" title="Browse By Categories" />
+          <Heading date="categories" title="Browse By Categories"/>
           <Arrow />
         </div>
-        <div className="flex justify-center items-center mt-[60px] space-x-">
+        <div className="flex justify-center items-center mt-[10px] space-x-[22px]">
           <Categoryitemsdesign device="phones" IconComponent={CiMobile3} />
           <Categoryitemsdesign
             device="laptops"

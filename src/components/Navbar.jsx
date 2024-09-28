@@ -1,11 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import { CiSearch } from "react-icons/ci";
-import { CiHeart } from "react-icons/ci";
+import { CiHeart,CiShoppingCart,CiUser } from "react-icons/ci";
 import { FiShoppingCart } from "react-icons/fi";
+import { FaRegUser } from "react-icons/fa";
 
 <CiSearch />;
 
 const Navbar = ({ category, setcategory }) => {
+
+  const [userclicked, setuserclicked] =useState(false);
+   
+  const handleuserclicked = ()=>{
+    setuserclicked(!userclicked);
+  }
+
   return (
     <div>
       <div className="flex items-center justify-between px-[30px] lg:px-[135px] p-[30px]">
@@ -48,7 +56,19 @@ const Navbar = ({ category, setcategory }) => {
             <CiSearch className="text-gray-500 size-[30px] " />
           </div>
           <CiHeart className="size-[40px]" />
-          <FiShoppingCart className="size-[30px]" />
+          <CiShoppingCart className="size-[40px]" />
+          <CiUser className="size-[40px] cursor-pointer" onClick={()=>handleuserclicked()}/>
+            {
+              userclicked &&(
+                <div>
+                  <ul>Manage My Account</ul>
+                  <ul>My Order</ul>
+                  <ul>My Cancellations</ul>
+                  <ul>My reviews</ul>
+                  <ul>Logout</ul>
+                </div>
+              )
+            }
         </div>
       </div>
       <div className="bg-[#B3B3B3B3] h-[1px]"></div>

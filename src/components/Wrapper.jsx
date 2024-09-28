@@ -2,8 +2,10 @@ import React from 'react'
 
 const Wrapper = ({children}) => {
   return (
-    <div className='px-[30px] lg:px-[135px] align-center justify-center'>
+    <div className='flex justify-center items-center'>
+    <div className='px-[30px] lg:px-[135px]'>
       {children}
+    </div>
     </div>
   )
 }

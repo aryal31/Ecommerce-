@@ -15,7 +15,7 @@ const Featured = () => {
           <Heading date="Featured" title="New arrival" />
           <Arrow />
         </div>
-        <div className="flex gap-[30px] text-white align-center justify-center">
+        <div className="flex gap-[30px] text-white align-center justify-center mt-3">
           <div className="bg-black h-[600px] w-[570px] rounded-[4px] relative ">
             <img
               src={playstation}

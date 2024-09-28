@@ -1,30 +1,44 @@
-import React from 'react'
-import optionsimg from '../assets/images/optionsimg.png'
+import React from "react";
+import optionsimg from "../assets/images/optionsimg.png";
 import { SlArrowRight } from "react-icons/sl";
+import Wrapper from "./Wrapper";
+
 
 const Options = () => {
   return (
-    <>
-    <div className='flex px-[30px] lg:px-[135px] border-r '>
-      <div className='border-[#B3B3B3B3] mt-[40px] flex flex-col gap-[16px]'>
-      <ul className='flex items-center space-x-2'>
-        <li>Woman's fahion</li> <li><SlArrowRight /></li></ul>
-        <ul className='flex items-center space-x-7'>
-        <li>Men's fashion</li> <li><SlArrowRight /></li></ul>
-      <ul>Electronics</ul>
-      <ul>Home and lifestyle</ul>
-      <ul>Medicine</ul>
-      <ul>sports & outdoor</ul>
-      <ul>Babys & toys</ul>
-      <ul>groceries & pets</ul>
-      <ul>Health & beauty</ul></div>
-      <div className='h-auto w-[1px] bg-slate-400 ml-[16px]'></div>
-      <div className='flex-1 ml-[40px] mt-[45px]'>
-        <img src={optionsimg} alt="" className='w-full h-full' />
+    <Wrapper>
+      <div className="flex items-center justify-center">
+      <div className="flex items-center">
+     
+        <div className="flex flex-col space-y-[16px] mt-[45px]">
+          <ul className="flex items-center space-x-3">
+            <li>Woman's fashion</li>
+            <li>
+              <SlArrowRight />
+            </li>
+          </ul>
+          <ul className="flex items-center space-x-10">
+            <li>Men's fashion</li>{" "}
+            <li>
+              <SlArrowRight />
+            </li>
+          </ul>
+          <ul>Electronics</ul>
+          <ul>Home & lifestyle</ul>
+          <ul>Medicine</ul>
+          <ul>sports & outdoor</ul>
+          <ul>Babys & toys</ul>
+          <ul>groceries & pets</ul>
+          <ul>Health & beauty</ul>
+        </div>
+        <div className="border-l-[1px] border-[#c9c9c9c9] self-stretch mx-8"></div>
+        <div className="flex-1 ml-[40px] mt-[45px]">
+          <img src={optionsimg} alt="" className="w-auto h-auto" />
+        </div>
       </div>
-    </div>
-    </>
-  )
-}
+      </div>
+    </Wrapper>
+  );
+};
 
-export default Options
+export default Options;
