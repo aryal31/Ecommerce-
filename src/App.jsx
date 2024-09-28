@@ -13,33 +13,31 @@ import Line from "./components/Line";
 import Bestsellingproducts from "./components/Bestsellingproducts";
 import Ourproducts from "./components/Ourproducts";
 import Featured from "./components/Featured";
-import Viewallbutton from "./components/Viewallbutton";
-
-
-
+import Servicefeatures from "./components/Servicefeatures";
+import Cover from "./components/Cover";
 
 const App = () => {
+  const [category, setcategory] = useState("");
 
-  const [category, setcategory] = useState('');
-
-  return <div>
-
-    <Top/>
-    <Navbar category={category} setcategory={setcategory}/>
-    <Options/>
-    <Flashsale/>
-    
-    <Viewallproductsbutton/>
-    <Line/>
-    <Browsebycategory/>
-    <Line></Line>
-    <Bestsellingproducts/>
-    <Ourproducts/>
-    <Featured/>
-    <Footer/>
-    
-    
-  </div>;
+  return (
+    <>
+    <Cover>
+      <Top />
+      <Navbar category={category} setcategory={setcategory} />
+      <Options />
+      <Flashsale />
+      <Viewallproductsbutton />
+      <Line />
+      <Browsebycategory />
+      <Line></Line>
+      <Bestsellingproducts />
+      <Ourproducts />
+      <Featured />
+      <Servicefeatures />
+      <Footer />
+      </Cover>
+    </>
+  );
 };
 
 export default App;

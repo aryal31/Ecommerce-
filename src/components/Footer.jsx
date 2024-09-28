@@ -7,11 +7,14 @@ import { FaInstagram } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
 import { HiArrowRight } from "react-icons/hi2";
 import Imagebox from "./imagebox";
+import Wrapper from "./Wrapper";
+
 
 
 const Footer = () => {
   return (
-    <div className="flex flex-col bg-black  items-center whitespace-nowrap mt-4">
+    <>
+          <div className="flex flex-col bg-black  items-center whitespace-nowrap mt-4">
       <div className="flex flex-wrap justify-between px-5  lg:px-[100px] 2xl:px-[135px] text-white pt-[80px] gap-[20px]">
         <div className="flex flex-col ">
           <ul className="font-bold text-[25px] mb-[24px]">Exclusive</ul>
@@ -73,6 +76,7 @@ const Footer = () => {
         Designed and developed by Lunico Copyright 2024.
       </div>
     </div>
+    </>
   );
 };
 
