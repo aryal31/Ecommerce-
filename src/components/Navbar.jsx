@@ -1,18 +1,24 @@
-import React, { useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import { CiSearch } from "react-icons/ci";
-import { CiHeart,CiShoppingCart,CiUser } from "react-icons/ci";
-import { FiShoppingCart } from "react-icons/fi";
-import { FaRegUser } from "react-icons/fa";
+import { CiHeart, CiShoppingCart, CiUser } from "react-icons/ci";
+
 
 <CiSearch />;
 
 const Navbar = ({ category, setcategory }) => {
+  const [userclicked, setuserclicked] = useState(false);
+  const dropdownref = useRef(null);
 
-  const [userclicked, setuserclicked] =useState(false);
-   
-  const handleuserclicked = ()=>{
+  const handleuserclicked = () => {
     setuserclicked(!userclicked);
-  }
+  };
+
+  useEffect(()=>{
+    const handleClickOutside = (event) =>{
+    
+    }
+  },[])
+
 
   return (
     <div>
@@ -46,7 +52,7 @@ const Navbar = ({ category, setcategory }) => {
             Sign up
           </div>
         </div>
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-4 relative">
           <div className="bg-[#e6e6e6] px-5 py-[7px] border border-black rounded-[4px] flex items-center">
             <input
               type="text"
@@ -57,18 +63,24 @@ const Navbar = ({ category, setcategory }) => {
           </div>
           <CiHeart className="size-[40px]" />
           <CiShoppingCart className="size-[40px]" />
-          <CiUser className="size-[40px] cursor-pointer" onClick={()=>handleuserclicked()}/>
-            {
-              userclicked &&(
-                <div>
-                  <ul>Manage My Account</ul>
-                  <ul>My Order</ul>
-                  <ul>My Cancellations</ul>
-                  <ul>My reviews</ul>
-                  <ul>Logout</ul>
-                </div>
-              )
-            }
+          <CiUser
+            className="size-[40px] cursor-pointer"
+            onClick={() => handleuserclicked()}
+          />
+          {userclicked && (
+            <div
+              ref={dropdownref}
+              className="absolute top-[100%] right-0 mt-2 bg-[#7d7d7d] text-white bg-opacity-70 backdrop-blur-lg p-4 rounded-lg"
+            >
+              <ul className="flex flex-col space-y-2">
+                <li>Manage My Account</li>
+                <li>My Order</li>
+                <li>My Cancellations</li>
+                <li>My reviews</li>
+                <li>Logout</li>
+              </ul>
+            </div>
+          )}
         </div>
       </div>
       <div className="bg-[#B3B3B3B3] h-[1px]"></div>

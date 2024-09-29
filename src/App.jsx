@@ -14,14 +14,14 @@ import Bestsellingproducts from "./components/Bestsellingproducts";
 import Ourproducts from "./components/Ourproducts";
 import Featured from "./components/Featured";
 import Servicefeatures from "./components/Servicefeatures";
-import Cover from "./components/Cover";
+
 
 const App = () => {
   const [category, setcategory] = useState("");
 
   return (
     <>
-    <Cover>
+   
       <Top />
       <Navbar category={category} setcategory={setcategory} />
       <Options />
@@ -35,7 +35,7 @@ const App = () => {
       <Featured />
       <Servicefeatures />
       <Footer />
-      </Cover>
+     
     </>
   );
 };
