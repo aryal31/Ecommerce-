@@ -7,18 +7,26 @@ import { CiHeart, CiShoppingCart, CiUser } from "react-icons/ci";
 
 const Navbar = ({ category, setcategory }) => {
   const [userclicked, setuserclicked] = useState(false);
-  const dropdownref = useRef(null);
+  const dropdownRef = useRef(null);
 
   const handleuserclicked = () => {
     setuserclicked(!userclicked);
   };
 
-  useEffect(()=>{
-    const handleClickOutside = (event) =>{
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setuserclicked(false);
+      }
+    };
+  
+    document.addEventListener("mousedown", handleClickOutside);
     
-    }
-  },[])
-
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [dropdownRef]);
+  
 
   return (
     <div>
@@ -69,7 +77,7 @@ const Navbar = ({ category, setcategory }) => {
           />
           {userclicked && (
             <div
-              ref={dropdownref}
+              ref={dropdownRef}
               className="absolute top-[100%] right-0 mt-2 bg-[#7d7d7d] text-white bg-opacity-70 backdrop-blur-lg p-4 rounded-lg"
             >
               <ul className="flex flex-col space-y-2">
