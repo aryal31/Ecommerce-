@@ -8,20 +8,21 @@ import Itemcard from "./Itemcard";
 const Bestsellingproducts = () => {
   return (
     <>
-      <Wrapper>
+      <>
         <div>
-          <div className="flex justify-between">
+          <div className="flex justify-between px-[30px]">
             <Heading date="This month" title="best selling products" />
             <Viewallbutton/>
           </div>
-        </div>
-        <div className="flex gap-4 ">
+        
+        <div className="flex gap-4 justify-center align-center">
           <Itemcard></Itemcard>
           <Itemcard></Itemcard>
           <Itemcard></Itemcard>
           <Itemcard></Itemcard>
         </div>
-      </Wrapper>
+        </div>
+      </>
     </>
   );
 };

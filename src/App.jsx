@@ -14,16 +14,17 @@ import Bestsellingproducts from "./components/Bestsellingproducts";
 import Ourproducts from "./components/Ourproducts";
 import Featured from "./components/Featured";
 import Servicefeatures from "./components/Servicefeatures";
+import Banner from "./components/Banner";
+
 
 
 const App = () => {
-  const [category, setcategory] = useState("");
 
   return (
     <>
-   
+
       <Top />
-      <Navbar category={category} setcategory={setcategory} />
+      <Navbar />
       <Options />
       <Flashsale />
       <Viewallproductsbutton />
@@ -31,6 +32,7 @@ const App = () => {
       <Browsebycategory />
       <Line></Line>
       <Bestsellingproducts />
+      <Banner/>
       <Ourproducts />
       <Featured />
       <Servicefeatures />
