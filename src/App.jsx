@@ -7,7 +7,7 @@ import Heading from "./components/Heading";
 import Wrapper from "./components/Wrapper";
 import Flashsale from "./components/Flashsale";
 import Itemcard from "./components/Itemcard";
-import Viewallproductsbutton from "./components/Viewallproductsbutton";
+import Orangebutton from "./components/Orangebutton";
 import Browsebycategory from "./components/Browsebycategory";
 import Line from "./components/Line";
 import Bestsellingproducts from "./components/Bestsellingproducts";
@@ -16,15 +16,8 @@ import Featured from "./components/Featured";
 import Servicefeatures from "./components/Servicefeatures";
 import Banner from "./components/Banner";
 
-
-
 const App = () => {
-
-  return (
-    <>
-
-    </>
-  );
+  return <></>;
 };
 
 export default App;

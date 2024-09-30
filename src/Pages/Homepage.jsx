@@ -1,33 +1,30 @@
-import React from 'react'
-import Flashsale from '../components/Flashsale'
-import Viewallproductsbutton from '../components/Viewallproductsbutton'
-import Line from '../components/Line'
-import Options from '../components/Options'
-import Browsebycategory from '../components/Browsebycategory'
-import Bestsellingproducts from '../components/Bestsellingproducts'
-import Banner from '../components/Banner'
-import Ourproducts from '../components/Ourproducts'
-import Featured from '../components/Featured'
-import Servicefeatures from '../components/Servicefeatures'
-
+import React from "react";
+import Flashsale from "../components/Flashsale";
+import Orangebutton from "../components/Orangebutton";
+import Line from "../components/Line";
+import Options from "../components/Options";
+import Browsebycategory from "../components/Browsebycategory";
+import Bestsellingproducts from "../components/Bestsellingproducts";
+import Banner from "../components/Banner";
+import Ourproducts from "../components/Ourproducts";
+import Featured from "../components/Featured";
+import Servicefeatures from "../components/Servicefeatures";
 
 const Homepage = () => {
   return (
     <div>
-       <Options />
+      <Options />
       <Flashsale />
-      <Viewallproductsbutton />
       <Line />
       <Browsebycategory />
-      <Line/>
+      <Line />
       <Bestsellingproducts />
-      <Banner/>
+      <Banner />
       <Ourproducts />
       <Featured />
       <Servicefeatures />
-      
     </div>
-  )
-}
+  );
+};
 
-export default Homepage
+export default Homepage;

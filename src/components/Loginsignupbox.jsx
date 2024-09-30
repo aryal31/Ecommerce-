@@ -1,13 +1,19 @@
-import React from 'react'
-import loginimg from '../assets/images/loginimg.png'
+import React from "react";
+import loginimg from "../assets/images/loginimg.png";
 
-const Loginsignupbox = ({children}) => {
+const Loginsignupbox = ({ children }) => {
   return (
-<div className='flex justify-center items-center w-auto h-auto gap-[40px]'>
-      <div className='flex'><img className='h-[500px] w-[500px] object-cover' src={loginimg} alt="" /></div>
-    <div className='flex'> {children}</div>
+    <div className="flex items-center w-auto h-auto gap-[300px] justify-center">
+      <div className="flex">
+        <img
+          className="h-[781px] w-[805px] object-cover"
+          src={loginimg}
+          alt=""
+        />
+      </div>
+      <div className="flex"> {children}</div>
     </div>
-  )
-}
+  );
+};
 
-export default Loginsignupbox
+export default Loginsignupbox;

@@ -50,7 +50,7 @@ const Navbar = () => {
     <div>
       <div className="flex items-center justify-between px-[30px] lg:px-[135px] p-[30px]">
         <div className="text-[24px] font-bold">Exclusive</div>
-        <ul className="text-black flex gap-x-3">
+        <ul className="text-black flex gap-x-[48px]">
           {navLinks.map((item, index) => {
             return (
               <li

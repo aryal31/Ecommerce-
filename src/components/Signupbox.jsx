@@ -41,7 +41,7 @@ const Signupbox = () => {
         <span className="">Already have account?</span>
         <span className="font-semibold underline underline-offset-[6px]">Log in</span>
       </div>
-    </div>
+    </div>       
   );
 };
 

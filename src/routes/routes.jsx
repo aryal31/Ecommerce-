@@ -1,4 +1,5 @@
 
+import Contactpage from '../Pages/Contactpage'
 import Errorpage from '../Pages/Errorpage'
 import Homepage from '../Pages/Homepage'
 import Layout from '../Pages/Layout'
@@ -13,6 +14,8 @@ import { createBrowserRouter } from 'react-router-dom'
     children: [{index: true, element:<Homepage/>},
       {path: "login",element: <Loginpage/>},
       {path: "signup",element: <Signuppage/>},
+      {path: 'contact', element: <Contactpage/>},       
+      {path: ''}
     ]
   }])
 
