@@ -23,21 +23,6 @@ const App = () => {
   return (
     <>
 
-      <Top />
-      <Navbar />
-      <Options />
-      <Flashsale />
-      <Viewallproductsbutton />
-      <Line />
-      <Browsebycategory />
-      <Line></Line>
-      <Bestsellingproducts />
-      <Banner/>
-      <Ourproducts />
-      <Featured />
-      <Servicefeatures />
-      <Footer />
-     
     </>
   );
 };

@@ -8,10 +8,9 @@ import Signupbox from '../components/Signupbox.jsx'
 const Signuppage = () => {
   return (
     <div className=''>
-      <Top></Top>
-      <Navbar></Navbar>
-      <Loginsignupbox Logincomponent={Signupbox} ></Loginsignupbox>
-      <Footer></Footer>
+      <Loginsignupbox>
+        <Signupbox></Signupbox>
+      </Loginsignupbox>
     </div>
   )
 }
