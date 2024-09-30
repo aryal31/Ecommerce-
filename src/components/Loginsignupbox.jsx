@@ -3,9 +3,9 @@ import loginimg from '../assets/images/loginimg.png'
 
 const Loginsignupbox = ({children}) => {
   return (
-    <div className='flex justify-center items-center w-[1200px] h-[781] gap-7'>
+<div className='flex justify-center items-center w-auto h-auto gap-[40px]'>
       <div className='flex'><img className='h-[500px] w-[500px] object-cover' src={loginimg} alt="" /></div>
-    <div> {children}</div>
+    <div className='flex'> {children}</div>
     </div>
   )
 }

@@ -1,17 +1,33 @@
-import React from 'react'
+import React from "react";
 
 const Loginbox = () => {
   return (
-    <div>
-      <p>Log in to Executive</p>
-      <p>Enter your details below</p>
-      <input type="text" />
-      <input type="password" />
-      <div><button>login</button>
-      <span>forgot Password?</span>
+    <div className="flex flex-col">
+      <p className="text-[16px] lg:text-[20px] xl:text-[36px]">
+        Log in to Executive
+      </p>
+      <label for="email" className="text-[16px]">
+        Enter your details below
+      </label>
+      <input
+        id="email"
+        type="text"
+        className="border-b-[1.5px] border-b-[#D9D9D9] focus:outline-none my-[40px]"
+        placeholder="Email or Phone Number"
+      />
+      <input
+        type="password"
+        className="border-b-[1.5px] border-b-[#D9D9D9] focus:outline-none"
+        placeholder="Password"
+      />
+      <div className="flex justify-between items-center mt-[40px]">
+        <button className="bg-[#db4444] text-white rounded-sm h-[56px] w-[146px]">
+          login
+        </button>
+        <span className="text-[#db4444]">forgot Password?</span>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Loginbox
+export default Loginbox;
