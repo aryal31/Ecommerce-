@@ -8,7 +8,7 @@ import Itemcard from "./Itemcard";
 const Bestsellingproducts = () => {
   return (
     <>
-      <>
+      <Wrapper>
         <div>
           <div className="flex justify-between px-[30px]">
             <Heading date="This month" title="best selling products" />
@@ -22,7 +22,7 @@ const Bestsellingproducts = () => {
           <Itemcard></Itemcard>
         </div>
         </div>
-      </>
+      </Wrapper>
     </>
   );
 };
