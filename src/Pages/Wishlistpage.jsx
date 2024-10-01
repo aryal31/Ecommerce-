@@ -2,6 +2,7 @@ import React from "react";
 import Itemcardinwishlist from "../components/Itemcardinwishlist";
 import ItemCardinWishlistSuggestion from "../components/ItemCardinWishlistSuggestion";
 import Heading from "../components/Heading";
+import Buttonwithoutline from "../components/Buttonwithoutline";
 ItemCardinWishlistSuggestion;
 
 const Wishlistpage = () => {
@@ -11,9 +12,7 @@ const Wishlistpage = () => {
         <div className="flex flex-col justify-center">
           <div className="flex justify-between">
             <p>Whislist(4)</p>
-            <button className="border-black border-[1px] w-[223px] h-[56px] rounded-[3px]">
-              Move All To Bag
-            </button>
+            <Buttonwithoutline text='Move all to cart'/>
           </div>
           <div className="flex gap-3">
           <ItemCardinWishlistSuggestion />
