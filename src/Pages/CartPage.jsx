@@ -1,8 +1,9 @@
-import React from 'react'
-
+import Breadcrumb from "../components/Breadcrumb"
 const CartPage = () => {
   return (
-    <div>CartPage</div>
+    <div className=''>
+      <Breadcrumb first='first' second='second'/>
+    </div>
   )
 }
 

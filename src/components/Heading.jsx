@@ -1,11 +1,11 @@
 import React from "react";
 
-const Heading = ({ date, title }) => {
+const Heading = ({ date, title, textClr='text-[#DB4444]' }) => {
   return (
     <div>
       <div className="flex items-center">
         <div className="h-[40px] w-[20px] aspect-[1/2] bg-[#DB4444] rounded-[4px]"></div>
-        <div className="text-[#DB4444] font-bold text-[16px]  pl-[16px] capitalize">
+      <div className={` ${textClr} font-bold text-[16px]  pl-[16px] capitalize`}>
           {date}
         </div>
       </div>
@@ -15,5 +15,10 @@ const Heading = ({ date, title }) => {
     </div>
   );
 };
+
+Heading.defaultProps = {
+  title: "", // This is the default value when the title is not passed
+};
+
 
 export default Heading;
