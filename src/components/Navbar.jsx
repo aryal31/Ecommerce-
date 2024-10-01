@@ -5,6 +5,7 @@ import { FiShoppingBag } from "react-icons/fi";
 import { MdOutlineCancel } from "react-icons/md";
 import { FaRegStar } from "react-icons/fa";
 import { CiLogout } from "react-icons/ci";
+import { Link } from "react-router-dom";
 
 <CiSearch />;
 

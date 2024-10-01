@@ -5,6 +5,9 @@ import Homepage from '../Pages/Homepage'
 import Layout from '../Pages/Layout'
 import Loginpage from '../Pages/Loginpage'
 import Signuppage from '../Pages/Signuppage'
+import CartPage from '../Pages/CartPage'
+import Wishlistpage from '../Pages/Wishlistpage'
+import Aboutpage from '../Pages/Aboutpage'
 import { createBrowserRouter } from 'react-router-dom'
 
 
@@ -15,7 +18,9 @@ import { createBrowserRouter } from 'react-router-dom'
       {path: "login",element: <Loginpage/>},
       {path: "signup",element: <Signuppage/>},
       {path: 'contact', element: <Contactpage/>},       
-      {path: ''}
+      {path: 'cart', element: <CartPage/>},
+      {path: 'wishlist', element: <Wishlistpage/>},
+      {path: 'about', element: <Aboutpage/>}
     ]
   }])
 

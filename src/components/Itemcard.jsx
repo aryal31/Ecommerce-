@@ -1,5 +1,4 @@
 import React from "react";
-import Wrapper from "./Wrapper";
 import controller from "../assets/images/controller.png";
 import rating from "../assets/images/rating.png";
 import { IoEyeOutline } from "react-icons/io5";
