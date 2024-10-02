@@ -15,15 +15,16 @@ const CartPage = () => {
       />
       <div className="flex items-center justify-center flex-col">
         <div className=""></div>
-        <div className="w-[1170px]">
+        <div>
           <div className="mb-3">
-            <div className="shadow flex justify-between w-[1170px] h-[72px]  text-[16px] mt-[10px] items-center px-3">
+            <div className="shadow flex justify-between w-[1170px] h-[72px]  text-[16px] mt-[10px] items-center ">
               <p>Product</p>
               <p>Price</p>
               <p>Quantity</p>
               <p>Subtotal</p>
             </div>
           </div>
+          <Cartitemcard />
           <Cartitemcard />
 
           <div className="flex justify-between mt-3">
