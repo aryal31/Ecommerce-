@@ -10,6 +10,7 @@ import Wishlistpage from '../Pages/Wishlistpage'
 import Aboutpage from '../Pages/Aboutpage'
 import { createBrowserRouter } from 'react-router-dom'
 import CheckOutPage from '../Pages/CheckOutPage'
+import Myaccount from '../Pages/Myaccount'
 
 
   const router = createBrowserRouter([{
@@ -22,7 +23,8 @@ import CheckOutPage from '../Pages/CheckOutPage'
       {path: 'cart', element: <CartPage/>},
       {path: 'wishlist', element: <Wishlistpage/>},
       {path: 'about', element: <Aboutpage/>},
-      {path: 'checkout', element: <CheckOutPage/>}
+      {path: 'checkout', element: <CheckOutPage/>},
+      {path: 'myaccount', element:<Myaccount/>}
     ]
   }])
 
