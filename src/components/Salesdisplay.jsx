@@ -59,7 +59,7 @@ const Salesdisplay = () => {
               <div className="flex justify-center items-center">
                 <div
                   className={`h-[58px] w-[58px] bg-black flex items-center justify-center rounded-full box-content border-[13px] border-opacity-30 ${
-                    item.name === name && "bg-black"
+                    item.name === name && "bg-white"
                   }`}
                 >
                   <Icon
