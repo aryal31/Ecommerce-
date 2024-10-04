@@ -81,7 +81,7 @@ const Navbar = () => {
               placeholder="whare are you looking for?"
               className="bg-transparent outline-none"
             />
-            <CiSearch className="text-gray-500 size-[30px] " />
+            <CiSearch className="text-gray-500 size-[30px]" />
           </div>
           <Link to='wishlist'>
           <CiHeart className="size-[40px]" />
@@ -90,7 +90,7 @@ const Navbar = () => {
           <CiShoppingCart className="size-[40px]" />
           </Link>
           <CiUser
-            className="size-[40px] cursor-pointer"
+            className={`size-[40px] cursor-pointer ${userclicked === true ? 'bg-[#db4444] rounded-full text-white':''}`}
             onClick={() => handleuserclicked()}
           />
           {userclicked && (

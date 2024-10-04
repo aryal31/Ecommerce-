@@ -27,6 +27,10 @@ const Loginbox = () => {
         </button>
         <span className="text-[#db4444]">forgot Password?</span>
       </div>
+      <div className="gap-3 flex opacity-70 text-[16px] items-center justify-center">
+        <span className="">Don't have an account?</span>
+        <span className="font-semibold underline underline-offset-[6px]"><Link to='/signup'>Sign up</Link></span>
+      </div>
     </div>
   );
 };
