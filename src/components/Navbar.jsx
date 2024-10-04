@@ -12,15 +12,19 @@ import { Link } from "react-router-dom";
 const navLinks = [
   {
     text: "home",
+    path: "/",
   },
   {
     text: "about",
+    path: "/about",
   },
   {
     text: "contact",
+    path: "/contact",
   },
   {
     text: "signup",
+    path: "/signup",
   },
 ];
 
@@ -50,23 +54,25 @@ const Navbar = () => {
   return (
     <div>
       <div className="flex items-center justify-between px-[30px] lg:px-[135px] p-[30px]">
-        <div className="text-[24px] font-bold">Exclusive</div>
+        <div className="text-[24px] font-bold"><Link to='/'>Exclusive</Link></div>
         <ul className="text-black flex gap-x-[48px]">
-          {navLinks.map((item, index) => {
+        {navLinks.map((item, index) => {
             return (
-              <li
-                className={`capitalize cursor-pointer ${
-                  category === item.text
-                    ? "underline underline-offset-[6px]"
-                    : ""
-                }`}
-                onClick={() => setCategory(item.text)}
+              <Link
+                to={item.path}
+                className={`capitalize cursor-pointer ${(category === item.text
+                  ? "underline underline-offset-[6px]"
+                  : "")}`}
+                onClick={()=>{
+                  setCategory(item.text)
+                }}
                 key={index}
               >
                 {item.text}
-              </li>
+              </Link>
             );
           })}
+         
         </ul>
         <div className="flex items-center gap-4 relative">
           <div className="bg-[#e6e6e6] px-5 py-[7px] border border-black rounded-[4px] flex items-center">
@@ -77,8 +83,12 @@ const Navbar = () => {
             />
             <CiSearch className="text-gray-500 size-[30px] " />
           </div>
+          <Link to='wishlist'>
           <CiHeart className="size-[40px]" />
+          </Link>
+          <Link to='cart'>
           <CiShoppingCart className="size-[40px]" />
+          </Link>
           <CiUser
             className="size-[40px] cursor-pointer"
             onClick={() => handleuserclicked()}
@@ -89,13 +99,15 @@ const Navbar = () => {
               className="absolute top-[100%] right-0 bg-[#7d7d7d] text-white bg-opacity-70 backdrop-blur-lg rounded-lg"
             >
               <ul className="flex flex-col">
-                <li className="cursor-pointer hover:bg-[#7d7d7d] p-2 rounded-t-lg flex justify-start items-center gap-x-3">
+                <Link to='account' className="cursor-pointer hover:bg-[#7d7d7d] p-2 rounded-t-lg flex justify-start items-center gap-x-3">
                   {" "}
                   <p className="text-[25px]">
                     <CiUser />
                   </p>
+                
                   <p>Manage My Account</p>
-                </li>
+               
+                </Link>
                 <li className="cursor-pointer hover:bg-[#7d7d7d] p-2 flex justify-start items-center gap-x-3">
                   <p className="text-[25px]">
                     <FiShoppingBag />

@@ -24,7 +24,7 @@ import Myaccount from '../Pages/Myaccount'
       {path: 'wishlist', element: <Wishlistpage/>},
       {path: 'about', element: <Aboutpage/>},
       {path: 'checkout', element: <CheckOutPage/>},
-      {path: 'myaccount', element:<Myaccount/>}
+      {path: 'account', element:<Myaccount/>}
     ]
   }])
 
