@@ -1,13 +1,5 @@
 import React from "react";
-import Heading from "./Heading";
-import Arrow from "./Arrow";
-import Wrapper from "./Wrapper";
-import { CiMobile3 } from "react-icons/ci";
-import { HiOutlineComputerDesktop } from "react-icons/hi2";
-import { BsSmartwatch } from "react-icons/bs";
-import { CiCamera } from "react-icons/ci";
-import { CiHeadphones } from "react-icons/ci";
-import { LuGamepad } from "react-icons/lu";
+
 
 const Categoryitemsdesign = ({device,IconComponent}) => {
   return (
