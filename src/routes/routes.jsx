@@ -11,6 +11,7 @@ import Aboutpage from '../Pages/Aboutpage'
 import { createBrowserRouter } from 'react-router-dom'
 import CheckOutPage from '../Pages/CheckOutPage'
 import Myaccount from '../Pages/Myaccount'
+import ProductViewPage from '../Pages/ProductViewPage'
 
 
   const router = createBrowserRouter([{
@@ -24,7 +25,8 @@ import Myaccount from '../Pages/Myaccount'
       {path: 'wishlist', element: <Wishlistpage/>},
       {path: 'about', element: <Aboutpage/>},
       {path: 'checkout', element: <CheckOutPage/>},
-      {path: 'account', element:<Myaccount/>}
+      {path: 'account', element:<Myaccount/>},
+      {path: 'productview', element:<ProductViewPage/>}
     ]
   }])
 
