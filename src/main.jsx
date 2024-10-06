@@ -8,6 +8,7 @@ import './index.css'
 import Loginpage from './Pages/Loginpage.jsx'
 import Signuppage from './Pages/Signuppage.jsx'
 
+import { Provider } from 'react-redux'
 
 
 createRoot(document.getElementById('root')).render(
