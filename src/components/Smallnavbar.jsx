@@ -8,6 +8,7 @@ import { CiLogout } from "react-icons/ci";
 import { Link } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { RxHamburgerMenu } from "react-icons/rx";
+import Usermenu from "./Usermenu";
 
 
 const Smallnavbar = () => {
@@ -41,10 +42,7 @@ const Smallnavbar = () => {
           <Link to='cart'>
           <CiShoppingCart className="size-[30px]" />
           </Link>
-          <CiUser
-            className={`size-[30px] cursor-pointer ${userclicked === true ? 'bg-[#db4444] rounded-full text-white':''}`}
-            onClick={() => handleuserclicked()}
-          />
+          <Usermenu></Usermenu>
           <RxHamburgerMenu className="size-[30px]" />
         </div>
       </div>
