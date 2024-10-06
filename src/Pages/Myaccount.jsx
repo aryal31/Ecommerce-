@@ -12,7 +12,7 @@ const Myaccount = () => {
         <div className="flex flex-col">
           <label htmlFor="fname">First Name</label>
           <input
-            className="h-[50px] w-[330px] bg-[#F5F5F5] mt-[8px] mb-[32px] foucs:none pl-4"
+            className="h-[50px] w-[330px] bg-[#F5F5F5] mt-[8px] mb-[32px] foucs:none pl-4 focus:outline-none"
             type="text"
             id="fname"
             placeholder="john"
@@ -23,7 +23,7 @@ const Myaccount = () => {
           <div className="flex flex-col">
             <label htmlFor="fname">Last name</label>
             <input
-              className="h-[50px] w-[330px] bg-[#F5F5F5] mt-[8px] mb-[32px] pl-4"
+              className="h-[50px] w-[330px] bg-[#F5F5F5] mt-[8px] mb-[32px] pl-4 focus:outline-none"
               type="text"
               id="fname"
               placeholder="doe"
@@ -36,7 +36,7 @@ const Myaccount = () => {
         <div className="flex flex-col">
           <label htmlFor="fname">Email</label>
           <input
-            className="h-[50px] w-[330px] bg-[#F5F5F5] mt-[8px] mb-[32px] pl-4"
+            className="h-[50px] w-[330px] bg-[#F5F5F5] mt-[8px] mb-[32px] pl-4 focus:outline-none"
             type="text"
             placeholder="example@gmail.com"
             id="fname"
@@ -47,7 +47,7 @@ const Myaccount = () => {
           <div className="flex flex-col">
             <label htmlFor="address">Address</label>
             <input
-              className="h-[50px] w-[330px] bg-[#F5F5F5] mt-[8px] mb-[32px] pl-3"
+              className="h-[50px] w-[330px] bg-[#F5F5F5] mt-[8px] mb-[32px] pl-3 focus:outline-none"
               type="text"
               id="address"
               placeholder="123 street, 123"
@@ -60,14 +60,14 @@ const Myaccount = () => {
         <div className="flex flex-col">
           <label htmlFor="password">Password</label>
           <input
-            className="h-[50px] w-[330px] bg-[#F5F5F5] mt-[8px] mb-[32px] pl-4"
+            className="h-[50px] w-[330px] bg-[#F5F5F5] mt-[8px] mb-[32px] pl-4 focus:outline-none"
             type="text"
             id="password"
             placeholder="current password"
             required
           />
           <input
-            className="h-[50px] w-[330px] bg-[#F5F5F5] mt-[8px] mb-[32px] pl-4"
+            className="h-[50px] w-[330px] bg-[#F5F5F5] mt-[8px] mb-[32px] pl-4 focus:outline-none"
             type="text"
             placeholder="New Password"
             required
@@ -75,7 +75,7 @@ const Myaccount = () => {
           />
 
 <input
-            className="h-[50px] w-[330px] bg-[#F5F5F5] mt-[8px] mb-[32px] pl-4"
+            className="h-[50px] w-[330px] bg-[#F5F5F5] mt-[8px] mb-[32px] pl-4 focus:outline-none"
             type="text"
             id="password"
             placeholder="Confirm new password"

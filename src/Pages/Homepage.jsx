@@ -1,6 +1,5 @@
 import React from "react";
 import Flashsale from "../components/Flashsale";
-import Orangebutton from "../components/Orangebutton";
 import Line from "../components/Line";
 import Options from "../components/Options";
 import Browsebycategory from "../components/Browsebycategory";

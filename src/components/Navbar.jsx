@@ -29,6 +29,7 @@ const navLinks = [
 ];
 
 const Navbar = () => {
+  
   const [category, setCategory] = useState("");
   const [userclicked, setuserclicked] = useState(false);
   const dropdownRef = useRef(null);
@@ -53,9 +54,9 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className="flex items-center justify-between px-[30px] lg:px-[135px] p-[30px]">
+      <div className="flex items-center justify-between px-[30px] md:px-[50px] p-[30px] gap-[10px]">
         <div className="text-[24px] font-bold"><Link to='/'>Exclusive</Link></div>
-        <ul className="text-black flex gap-x-[48px]">
+        <ul className="text-black flex gap-x-[30px]">
         {navLinks.map((item, index) => {
             return (
               <Link
@@ -75,7 +76,7 @@ const Navbar = () => {
          
         </ul>
         <div className="flex items-center gap-4 relative">
-          <div className="bg-[#e6e6e6] px-5 py-[7px] border border-black rounded-[4px] flex items-center">
+          <div className="bg-[#e6e6e6] px-2 py-[3px] border border-black rounded-[4px] flex items-center">
             <input
               type="text"
               placeholder="whare are you looking for?"
@@ -84,13 +85,13 @@ const Navbar = () => {
             <CiSearch className="text-gray-500 size-[30px]" />
           </div>
           <Link to='wishlist'>
-          <CiHeart className="size-[40px]" />
+          <CiHeart className="size-[30px]" />
           </Link>
           <Link to='cart'>
-          <CiShoppingCart className="size-[40px]" />
+          <CiShoppingCart className="size-[30px]" />
           </Link>
           <CiUser
-            className={`size-[40px] cursor-pointer ${userclicked === true ? 'bg-[#db4444] rounded-full text-white':''}`}
+            className={`size-[30px] cursor-pointer ${userclicked === true ? 'bg-[#db4444] rounded-full text-white':''}`}
             onClick={() => handleuserclicked()}
           />
           {userclicked && (
