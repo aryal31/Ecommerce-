@@ -7,7 +7,7 @@ import { PiMoneyWavy } from "react-icons/pi";
 const Servicefeatures = () => {
   return (
     <Wrapper>
-      <div className="flex gap-[88px] pt-[140px] items-center justify-center mb-[140px]">
+      <div className="flex gap-[88px] pt-[140px] items-center justify-center mb-[140px] flex-wrap">
         <div className="flex items-center justify-between flex-col">
           <div className="h-[80px] w-[80px] bg-[#C1C0C1 ] rounded-[40px] flex justify-center items-center bg-[#c1c0c1]">
             <div className="h-[58px] w-[58px] bg-black flex items-center justify-center rounded-[30px]">

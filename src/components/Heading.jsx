@@ -2,7 +2,7 @@ import React from "react";
 
 const Heading = ({ date, title, textClr='text-[#DB4444]' }) => {
   return (
-    <div>
+    <div className="">
       <div className="flex items-center">
         <div className="h-[40px] w-[20px] aspect-[1/2] bg-[#DB4444] rounded-[4px]"></div>
       <div className={` ${textClr} font-bold text-[16px]  pl-[16px] capitalize`}>

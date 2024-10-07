@@ -7,10 +7,10 @@ import Wrapper from "./Wrapper";
 const Options = () => {
   return (
     <Wrapper>
-      <div className="flex items-center justify-center">
-      <div className="flex items-center">
+      <div>
+      <div className="flex flex-col md:flex-row items-center md:justify-center">
      
-        <div className="flex flex-col space-y-[16px] mt-[45px]">
+        <div className="md:flex flex-col space-y-[16px] mt-[45px] order-1 md:ml-3">
           <ul className="flex items-center space-x-3">
             <li>Woman's fashion</li>
             <li>
@@ -31,8 +31,8 @@ const Options = () => {
           <ul>groceries & pets</ul>
           <ul>Health & beauty</ul>
         </div>
-        <div className="border-l-[1px] border-[#c9c9c9c9] self-stretch mx-8"></div>
-        <div className="flex-1 ml-[40px] mt-[45px]">
+        <div className="border-l-[1px] border-[#c9c9c9c9] self-stretch md:mx-8"></div>
+        <div className="flex-1 md:ml-[40px] md:mt-[45px] mt-[10px] md:order-1">
           <img src={optionsimg} alt="" className="w-auto h-auto" />
         </div>
       </div>

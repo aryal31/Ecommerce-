@@ -5,7 +5,7 @@ import jbl from "../assets/images/jbl.png";
 const Banner = () => {
   return (
     <Wrapper>
-      <div className="bg-black h-[500px] w-[1170px] text-white flex mt-[40px] justify-center items-center">
+      <div className="bg-black h-[500px] w-[1170px] text-white md:flex mt-[40px] justify-center items-center hidden">
         <div className="flex flex-col ml-[60px]">
           <div className="text-[16px] text-[#00FF66]">Categories</div>
           <div className="h-[120px] w-[443px] text-[48px] font-semibold">
