@@ -9,7 +9,7 @@ const Ourproducts = () => {
   return (
     <>
       <Wrapper>
-        <div className="flex mt-[140px] justify-between">
+        <div className="flex mt-[100px] justify-between">
           <Heading date="Our products" title="explore our products" />
           <Arrow />
         </div>

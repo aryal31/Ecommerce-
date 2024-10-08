@@ -31,8 +31,8 @@ const Options = () => {
           <ul>groceries & pets</ul>
           <ul>Health & beauty</ul>
         </div>
-        <div className="border-l-[1px] border-[#c9c9c9c9] self-stretch md:mx-8"></div>
-        <div className="flex-1 md:ml-[40px] md:mt-[45px] mt-[10px] md:order-1">
+        <div className="border-l-[1px] border-[#c9c9c9c9] self-stretch md:mx-8 order-1"></div>
+        <div className="flex md:ml-[40px] md:mt-[45px] mt-[10px] md:order-1">
           <img src={optionsimg} alt="" className="w-auto h-auto" />
         </div>
       </div>

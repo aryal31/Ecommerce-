@@ -9,10 +9,10 @@ const Bestsellingproducts = () => {
   return (
     <>
       <Wrapper>
-        <div>
-          <div className="flex justify-between px-[30px]">
+      
+          <div className="flex justify-between ">
             <Heading date="This month" title="best selling products" />
-            <Viewallbutton/>
+            <div className="self-end"><Viewallbutton/></div>
           </div>
         
         <div className="flex gap-4 justify-center align-center flex-wrap">
@@ -21,7 +21,7 @@ const Bestsellingproducts = () => {
           <Itemcard></Itemcard>
           <Itemcard></Itemcard>
         </div>
-        </div>
+       
       </Wrapper>
     </>
   );
