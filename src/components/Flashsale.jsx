@@ -9,7 +9,8 @@ const Flashsale = () => {
   return (
     <>
       <Wrapper>
-        <div className="flex mt-[50px] justify-between ">
+       <div className="items-center justify-center">
+       <div className="flex mt-[50px] justify-between ">
           <Heading date="Today's" title="flash sales" />
           <Arrow />
         </div>
@@ -20,6 +21,7 @@ const Flashsale = () => {
           <Itemcard />
         </div>
         <Orangebutton text="View all products" />
+       </div>
       </Wrapper>
     </>
   );
