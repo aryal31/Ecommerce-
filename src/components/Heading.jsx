@@ -1,6 +1,6 @@
 import React from "react";
 
-const Heading = ({ date, title, textClr='text-[#DB4444]' }) => {
+const Heading = ({ date='', title='', textClr='text-[#DB4444]' }) => {
   return (
     <div className="">
       <div className="flex items-center">
@@ -16,9 +16,6 @@ const Heading = ({ date, title, textClr='text-[#DB4444]' }) => {
   );
 };
 
-Heading.defaultProps = {
-  title: "", // This is the default value when the title is not passed
-};
 
 
 export default Heading;

@@ -7,11 +7,33 @@ import person2 from "../assets/images/person2.png";
 import person3 from "../assets/images/person3.png";
 import { CiInstagram, CiLinkedin, CiTwitter } from "react-icons/ci";
 
+
+
+
+const employeedetails= [
+{
+  name:'Tom Cruise',
+  title:'Founder and Chairman',
+  image: person1
+},
+{
+  name:'Tom Cruise',
+  title:'Founder and Chairman',
+  image: person2
+},
+{
+  name:'Tom Cruise',
+  title:'Founder and Chairman',
+  image: person3
+}
+]
+
+
 const Aboutpage = () => {
   return (
     <div>
       <div className="">
-      <div className="flex gap-[10px] items-center justify-center">
+      <div className="flex gap-[10px] items-center justify-center flex-wrap">
         <div className="w-full md:w-[500px]">
           <p className="text-[54px] font-semibold">Our story</p>
           <p className="text-[16px]">
@@ -28,56 +50,33 @@ const Aboutpage = () => {
           </p>
         </div>
         <div className="h-[609px] w-[837] object-contain">
-          <img src={aboutimg} alt="" className="h-[600px] w-auto"/>
+          <img src={aboutimg} alt="" className="max-h-[600px] w-auto h-auto"/>
         </div>
       </div>
       </div>
       <div className="mb-10">
       <Salesdisplay></Salesdisplay>
       </div>
-      <div className="flex justify-center gap-2">
-        <div className="h-[564px] w-[370px]">
-          <div className="h-[430px] w-[370px] bg-[#f5f5f5] flex justify-end items-center flex-col">
-            <img src={person1} alt="" className=" h-[391px] w-[236px] " />
-          </div>
-          <div>
-            <p className="text-[32px]">Tom cruise</p>
-            <p className="text-[16px]">founder and chairman</p>
-            <div className="flex gap-[10px] text-[20px]">
-              <CiTwitter />
-              <CiInstagram />
-              <CiLinkedin />
+      <div className="flex justify-center gap-2 flex-wrap">
+       
+      {
+        employeedetails.map((item,index)=>{
+          return (<div className="h-[564px] w-[370px]" key={index}>
+            <div className="h-[430px] w-[370px] bg-[#f5f5f5] flex justify-end items-center flex-col">
+              <img src={item.image} alt="images of our employees" className="h-auto w-auto" />
             </div>
-          </div>
-        </div>
-        <div className="h-[564px] w-[370px]">
-          <div className="h-[430px] w-[370px] bg-[#f5f5f5] flex justify-end items-center flex-col">
-            <img src={person2} alt="" className="w-[294px] h-[397px] " />
-          </div>
-          <div>
-            <p className="text-[32px]">Emma Watson</p>
-            <p className="text-[16px]">Managing Director</p>
-            <div className="flex gap-[10px] text-[20px]">
-              <CiTwitter />
-              <CiInstagram />
-              <CiLinkedin />
+            <div>
+              <p className="text-[32px]">{item.name}</p>
+              <p className="text-[16px]">{item.title}</p>
+              <div className="flex gap-[10px] text-[20px]">
+                <CiTwitter />
+                <CiInstagram />
+                <CiLinkedin />
+              </div>
             </div>
-          </div>
-        </div>
-        <div className="h-[564px] w-[370px]">
-          <div className="h-[430px] w-[370px] bg-[#f5f5f5] flex justify-end items-center flex-col">
-            <img src={person3} alt="" className="w-[326px] h-[392] " />
-          </div>
-          <div>
-            <p className="text-[32px]">Will Smith</p>
-            <p className="text-[16px]">Product Designer</p>
-            <div className="flex gap-[10px] text-[20px]">
-              <CiTwitter />
-              <CiInstagram />
-              <CiLinkedin />
-            </div>
-          </div>
-        </div>
+          </div>)
+        })
+      }
       </div>
       <Servicefeatures></Servicefeatures>
     </div>

@@ -38,7 +38,7 @@ const Salesdisplay = () => {
 
   return (
     <div>
-      <div className="flex items-center justify-center gap-[30px]">
+      <div className="flex items-center justify-center gap-[30px] flex-wrap">
         {icondetails.map((item, index) => {
           const Icon = item.iname;
           return (

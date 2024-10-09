@@ -1,9 +1,9 @@
 import React from "react";
 import Orangebutton from "../components/Orangebutton";
-import controller from '../assets/images/controller.png'
-import visa from '../assets/images/visa.png'
-import mastercard from '../assets/images/mastercard.png'
-import paypal from '../assets/images/paypal.png'
+import controller from "../assets/images/controller.png";
+import visa from "../assets/images/visa.png";
+import mastercard from "../assets/images/mastercard.png";
+import paypal from "../assets/images/paypal.png";
 
 const CheckOutPage = () => {
   return (
@@ -89,7 +89,9 @@ const CheckOutPage = () => {
           <div className="flex mt-3">
             {" "}
             <input type="checkbox" className="accent-[#DB4444]" id="check" />
-            <p className="pl-3">Save this information for faster check-out next time</p>
+            <p className="pl-3">
+              Save this information for faster check-out next time
+            </p>
           </div>
         </div>
         <div>
@@ -103,7 +105,7 @@ const CheckOutPage = () => {
           </div>
           <div className="flex justify-between mb-[32px]">
             <div className="flex items-center justify-center">
-            <img src={controller} className="h-[40px] mr-3" alt="" />
+              <img src={controller} className="h-[40px] mr-3" alt="" />
               <p>H1 Gamepad</p>
             </div>
             <div>$1100</div>
@@ -125,31 +127,36 @@ const CheckOutPage = () => {
           </div>
           <div className="flex mt-[32px]">
             <input type="radio" className="bank" />
-            <label htmlFor="bank" className="ml-3">bank</label>
+            <label htmlFor="bank" className="ml-3">
+              bank
+            </label>
           </div>
           <div className="flex">
             <div className="">
-            <input type="radio" className="deliveryoptions my-[32px]" />
-            <label htmlFor="deliveryoptions" className="ml-3">Cash on delivery</label>
+              <input type="radio" className="deliveryoptions my-[32px]" />
+              <label htmlFor="deliveryoptions" className="ml-3">
+                Cash on delivery
+              </label>
             </div>
             <div className="flex  ml-[100px] gap-4 items-center">
-            <img src={visa} alt="" className="h-[50px]" />
-            <img src={mastercard} alt="" className="h-[30px]"/>
-            <img src={paypal} alt="" className="h-[30px]"/>
+              <img src={visa} alt="" className="h-[50px]" />
+              <img src={mastercard} alt="" className="h-[30px]" />
+              <img src={paypal} alt="" className="h-[30px]" />
             </div>
           </div>
           <div className="flex">
-        <input type="text" className="border-[1.5px] mr-[7px] pl-2" placeholder="Coupon code"/>
-        <Orangebutton text='Apply coupon'/>
+            <input
+              type="text"
+              className="border-[1.5px] mr-[7px] pl-2"
+              placeholder="Coupon code"
+            />
+            <Orangebutton text="Apply coupon" />
           </div>
-        <div className="mt-[32px]">
-          <Orangebutton text='Place Order'/>
-        </div>
-
-          <div>
-
-
+          <div className="mt-[32px]">
+            <Orangebutton text="Place Order" paddingx="6" paddingy="2" />
           </div>
+
+          <div></div>
         </div>
       </div>
     </div>
