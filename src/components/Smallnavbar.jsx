@@ -10,6 +10,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { RxHamburgerMenu } from "react-icons/rx";
 import Usermenu from "./Usermenu";
 import Searchpopup from "./Searchpopup";
+import Sidebar from "./Sidebar";
 
 
 const Smallnavbar = () => {
@@ -22,6 +23,12 @@ const Smallnavbar = () => {
   const handleuserclicked = () => {
     setuserclicked(!userclicked);
   };
+
+  const [sidebarOpen, setSidebarOpen]= useState(false);
+
+  const toggleSidebarOpen = ()=>{
+    setSidebarOpen(!sidebarOpen);
+  }
 
   const toggleSearchPopup = ()=>{
     setSearchOpen(!searchOpen);
@@ -46,7 +53,10 @@ const Smallnavbar = () => {
       <div className="flex items-center justify-between px-[30px] md:px-[50px] p-[30px] gap-[10px]">
         
         <div className="text-[20px] font-bold flex gap-4 items-center">
-        <RxHamburgerMenu className="size-[40px]" />
+          <div className="relative">
+        <RxHamburgerMenu className="size-[40px]" onClick={toggleSidebarOpen}/>
+        {sidebarOpen && <Sidebar onClose={toggleSidebarOpen} isOpen={sidebarOpen}/>}
+        </div>
           <Link to='/'>Exclusive</Link></div>
         <div className="flex items-center gap-4 relative">
           <CiSearch className="size-[30px]" onClick={toggleSearchPopup}/>

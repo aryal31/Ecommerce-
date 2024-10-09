@@ -30,6 +30,7 @@ const navLinks = [
   },
 ];
 
+
 const Navbar = () => {
   
   const [category, setCategory] = useState("");
