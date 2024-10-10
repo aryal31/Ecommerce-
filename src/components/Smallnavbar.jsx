@@ -1,38 +1,27 @@
 import React, { useEffect, useState, useRef } from "react";
 import { CiSearch } from "react-icons/ci";
 import { CiHeart, CiShoppingCart, CiUser } from "react-icons/ci";
-import { FiShoppingBag } from "react-icons/fi";
-import { MdOutlineCancel } from "react-icons/md";
-import { FaRegStar } from "react-icons/fa";
-import { CiLogout } from "react-icons/ci";
 import { Link } from "react-router-dom";
-import { GiHamburgerMenu } from "react-icons/gi";
 import { RxHamburgerMenu } from "react-icons/rx";
 import Usermenu from "./Usermenu";
 import Searchpopup from "./Searchpopup";
 import Sidebar from "./Sidebar";
 
-
 const Smallnavbar = () => {
-
   const [searchOpen, setSearchOpen] = useState(false);
-  
+
   const [userclicked, setuserclicked] = useState(false);
   const dropdownRef = useRef(null);
 
-  const handleuserclicked = () => {
-    setuserclicked(!userclicked);
+  const [sidebarOpen, setSidebarOpen] = useState(false);
+
+  const toggleSidebarOpen = () => {
+    setSidebarOpen(!sidebarOpen);
   };
 
-  const [sidebarOpen, setSidebarOpen]= useState(false);
-
-  const toggleSidebarOpen = ()=>{
-    setSidebarOpen(!sidebarOpen);
-  }
-
-  const toggleSearchPopup = ()=>{
+  const toggleSearchPopup = () => {
     setSearchOpen(!searchOpen);
-  }
+  };
 
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -51,27 +40,31 @@ const Smallnavbar = () => {
   return (
     <div className="relative">
       <div className="flex items-center justify-between px-[30px] md:px-[50px] p-[30px] gap-[10px]">
-        
         <div className="text-[20px] font-bold flex gap-4 items-center">
-          <div className="relative">
-        <RxHamburgerMenu className="size-[40px]" onClick={toggleSidebarOpen}/>
-        {sidebarOpen && <Sidebar onClose={toggleSidebarOpen} isOpen={sidebarOpen}/>}
+          <RxHamburgerMenu
+            className="size-[40px]"
+            onClick={toggleSidebarOpen}
+          />
+          <Link to="/">Exclusive</Link>
         </div>
-          <Link to='/'>Exclusive</Link></div>
-        <div className="flex items-center gap-4 relative">
-          <CiSearch className="size-[30px]" onClick={toggleSearchPopup}/>
-        <Link to='wishlist'>
-          <CiHeart className="size-[30px]" />
+        <div className="flex items-center gap-4">
+          <div className="relative">
+            <CiSearch className="size-[30px]" onClick={toggleSearchPopup} />
+          </div>
+          <Link to="wishlist">
+            <CiHeart className="size-[30px]" />
           </Link>
-          <Link to='cart'>
-          <CiShoppingCart className="size-[30px]" />
+          <Link to="cart">
+            <CiShoppingCart className="size-[30px]" />
           </Link>
           <Usermenu></Usermenu>
-          
         </div>
       </div>
       <div className="bg-[#B3B3B3B3] h-[1px]"></div>
-      <div className="absolute"><Searchpopup isOpen={searchOpen} onClose={toggleSearchPopup} /></div>
+      {sidebarOpen && (
+        <Sidebar onClose={toggleSidebarOpen} isOpen={sidebarOpen} />
+      )}
+      {searchOpen && <Searchpopup onClose={()=>setSearchOpen(!searchOpen)}/>}
     </div>
   );
 };
