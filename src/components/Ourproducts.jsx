@@ -19,10 +19,12 @@ const Ourproducts = () => {
           <Itemcard></Itemcard>
           <Itemcard></Itemcard>
         </div>
-        <Orangebutton text="View all products" />
+
+        <div className="flex items-center justify-center pt-2"><Orangebutton text="View all products" /></div>
       </Wrapper>
     </>
   );
 };
 
 export default Ourproducts;
+        

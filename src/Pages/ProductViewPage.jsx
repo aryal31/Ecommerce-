@@ -11,7 +11,7 @@ const ProductViewPage = () => {
       </div>
       <div className='mt-5'>
       <Heading date='Related Items'></Heading>
-      <div className='flex gap-2'>
+      <div className='flex gap-2 flex-wrap'>
       <Itemcard/>
       <Itemcard/>
       <Itemcard/>

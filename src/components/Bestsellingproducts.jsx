@@ -15,7 +15,7 @@ const Bestsellingproducts = () => {
             <div className="self-end"><Viewallbutton/></div>
           </div>
         
-        <div className="flex gap-4 justify-center align-center flex-wrap">
+        <div className="flex gap-4 justify-center align-center flex-wrap pt-5">
           <Itemcard></Itemcard>
           <Itemcard></Itemcard>
           <Itemcard></Itemcard>

@@ -8,7 +8,7 @@ import paypal from "../assets/images/paypal.png";
 const CheckOutPage = () => {
   return (
     <div>
-      <div className="flex items-center justify-center gap-[173px]">
+      <div className="flex items-center justify-center gap-[173px] flex-wrap">
         <div className="flex flex-col">
           <div className="mb-[48px] text-[36px]">Billing Detail</div>
           <label htmlFor="name" className="text-[black] opacity-40 text-[16px]">
