@@ -30,7 +30,7 @@ const CartPage = () => {
           <Buttonwithoutline text="Update Cart"></Buttonwithoutline>
         </div>
 
-        <div className="flex justify-between mt-8">
+        <div className="flex justify-between mt-8 flex-wrap">
           <div className="flex gap-x-3">
             <input
               type="text"
@@ -46,7 +46,7 @@ const CartPage = () => {
           </div>
         </div>
       </div>
-      <div/>
+      <div />
     </div>
   );
 };

@@ -4,7 +4,7 @@ import Orangebutton from "../components/Orangebutton";
 
 const Errorpage = () => {
   return (
-    <div className="flex items-center justify-center mt-[400px] flex-col">
+    <div className="flex items-center justify-center flex-col">
       <div className="text-[110px]">404 Not Found</div>
       <div className="text-[16px] mb-[30px]">
         Your visited page not found. You may go home page.

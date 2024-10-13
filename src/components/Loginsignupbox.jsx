@@ -6,7 +6,7 @@ const Loginsignupbox = ({ children }) => {
     <div className="flex items-center w-auto h-auto gap-[300px] justify-center flex-wrap">
       <div className="flex">
         <img
-          className="h-[781px] w-[805px] object-cover"
+          className="h-auto w-auto object-cover"
           src={loginimg}
           alt=""
         />
