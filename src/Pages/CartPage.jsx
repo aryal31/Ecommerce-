@@ -3,9 +3,11 @@ import Buttonwithoutline from "../components/Buttonwithoutline";
 import Cartitemcard from "../components/Cartitemcard";
 import CartTotalbox from "../components/CartTotalbox";
 import Orangebutton from "../components/Orangebutton";
+import Wrapper from "../components/Wrapper";
 const CartPage = () => {
   return (
-    <div className="container mx-auto">
+    <Wrapper>
+    <div className="container">
       <Breadcrumb
         first="Account"
         second="My Account"
@@ -48,6 +50,7 @@ const CartPage = () => {
       </div>
       <div />
     </div>
+    </Wrapper>
   );
 };
 

@@ -14,7 +14,7 @@ const Wishlistpage = () => {
             <p>Whislist(4)</p>
             <Buttonwithoutline text='Move all to cart'/>
           </div>
-          <div className="flex gap-3">
+          <div className="flex gap-3 flex-wrap">
           <ItemCardinWishlistSuggestion />
           <ItemCardinWishlistSuggestion />
 
@@ -35,7 +35,7 @@ const Wishlistpage = () => {
               </div>
             </div> */}
 
-         <div className="flex gap-3">
+         <div className="flex gap-3 flex-wrap">
          <Itemcardinwishlist />
          <Itemcardinwishlist />
          </div>
