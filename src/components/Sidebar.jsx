@@ -5,19 +5,19 @@ import { IoClose } from "react-icons/io5";
 const Sidebar = ({ onClose, isOpen }) => {
   const navLinks = [
     {
-      text: "home",
+      text: "Home",
       path: "/",
     },
     {
-      text: "about",
+      text: "About",
       path: "/about",
     },
     {
-      text: "contact",
+      text: "Contact",
       path: "/contact",
     },
     {
-      text: "signup",
+      text: "Signup",
       path: "/signup",
     },
   ];

@@ -7,7 +7,7 @@ import { FaRegHeart } from "react-icons/fa";
 const Itemcard = () => {
   return (
     
-      <div className="h-[350px] w-[270px] flex flex-col relative group">
+      <div className="h-[350px] w-[270px] md:flex flex-col relative group items-center justify-center">
         <div className=" bg-[#F5F5F5] h-[250px] ">
           <div>
             <div className="bg-[#db4444] rounded-[5px] w-[60px] h-[30px] text-[#f5f5f5f5] absolute mt-2 ml-3 items-center justify-center flex">

@@ -7,7 +7,7 @@ const Cartitemcard = () => {
       <div className="grid grid-cols-4 items-center h-[72px] text-[16px] shadow">
         <div className="flex items-center gap-2 ">
           {" "}
-          <img src={controller} className="h-[50px]" alt="" /> <p>Dual Sense</p>
+          <img src={controller} className="h-[50px] w-auto" alt="" /> <p>Dual Sense</p>
         </div>
         <p className="">$120</p>
         <div className="flex">
