@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import { IoClose } from "react-icons/io5";
 
 const Sidebar = ({ onClose, isOpen }) => {
+
+  //You can add other new elements in sidebar easily
   const navLinks = [
     {
       text: "Home",

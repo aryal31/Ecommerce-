@@ -7,7 +7,7 @@ import Wrapper from "../components/Wrapper";
 const CartPage = () => {
   return (
     <Wrapper>
-    <div className="container">
+    <div className="container">// container property sets 100% width of the div
       <Breadcrumb
         first="Account"
         second="My Account"

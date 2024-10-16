@@ -7,7 +7,6 @@ import { FaInstagram } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
 import { HiArrowRight } from "react-icons/hi2";
 import Imagebox from "./imagebox";
-import Wrapper from "./Wrapper";
 
 const Footer = () => {
   return (
@@ -31,7 +30,7 @@ const Footer = () => {
           <div>
             <ul className="text-[20px] mb-[24px]">support</ul>
             <ul className="mb-[16px]">
-              111 xzy place
+              111 abc place
               <br />
               xyz city, xyz country.
             </ul>

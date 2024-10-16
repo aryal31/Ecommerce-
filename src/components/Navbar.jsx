@@ -11,7 +11,7 @@ import Usermenu from "./Usermenu";
 
 <CiSearch />;
 
-const navLinks = [
+const navLinks = [ // you can add other pages in navbar by just simplying adding the page you want in the array and giving the path to it
   {
     text: "home",
     path: "/",

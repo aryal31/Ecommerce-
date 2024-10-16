@@ -1,5 +1,7 @@
 import React from "react";
 
+
+// you can cange the elements in header as much as you want ( you can change the date and title and the color of the text as well.)
 const Heading = ({ date='', title='', textClr='text-[#DB4444]' }) => {
   return (
     <div className="">
