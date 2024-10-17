@@ -11,6 +11,7 @@ import Imagebox from "./imagebox";
 const Footer = () => {
   return (
     <>
+    // foot is not yet dynamic. wokring on it
       <div className="flex flex-col bg-black  items-center whitespace-nowrap mt-4">
         <div className="flex flex-wrap justify-between px-5  lg:px-[100px] 2xl:px-[135px] text-white pt-[80px] gap-[20px]">
           <div className="flex flex-col ">

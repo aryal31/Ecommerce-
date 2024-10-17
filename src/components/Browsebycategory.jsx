@@ -15,7 +15,7 @@ const Browsebycategory = () => {
     <>
       <Wrapper>
         <div className="flex mt-[50px] justify-between">
-          <Heading date="categories" title="Browse By Categories"/>
+          <Heading date="categories" title="Browse By Categories" />
           <Arrow />
         </div>
         <div className="flex justify-center items-center mt-[10px] space-x-[22px] flex-wrap">
