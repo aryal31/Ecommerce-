@@ -7,7 +7,8 @@ import Wrapper from "./Wrapper";
 const Options = () => {
   return (
     <Wrapper>
-      //This compnent is not yet completed
+    {/* This compnent is not yet completed */}
+      
       <div>
       <div className="flex flex-col md:flex-row items-center md:justify-center">
      
