@@ -9,7 +9,7 @@ const Bestsellingproducts = () => {
     <>
       <Wrapper>
         <div className="flex justify-between ">
-          <Heading date="This month" title="best selling products" />
+          <Heading date="This Month" title="Best selling products" />
           <div className="self-end">
             <Viewallbutton />
           </div>

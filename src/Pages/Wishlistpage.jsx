@@ -23,19 +23,8 @@ const Wishlistpage = () => {
           <Heading date="just for you" textClr="text-black" />
           <button className="items-center justify-center h-[56px] w-[150px] border-black border-[1px] rounded-[3px]">See All</button>
           </div>
-
-          {/* 
-            <div className="flex items-center justify-between">
-              <div className="h-[40px] w-[20px] aspect-[1/2] bg-[#DB4444] rounded-[4px]"></div>
-              <div className="text-[16px]  pl-[16px] capitalize">
-                Just For You
-              </div>
-              <div>
-                <button>See All</button>
-              </div>
-            </div> */}
-
          <div className="flex gap-3 flex-wrap">
+         <Itemcardinwishlist />
          <Itemcardinwishlist />
          <Itemcardinwishlist />
          </div>

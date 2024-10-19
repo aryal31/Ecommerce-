@@ -1,7 +1,6 @@
 import controller from "../assets/images/controller.png";
 import rating from "../assets/images/rating.png";
 import { IoEyeOutline } from "react-icons/io5";
-import { HiOutlineTrash } from "react-icons/hi2";
 import { MdOutlineShoppingCart } from "react-icons/md";
 
 const Itemcardinwishlist = () => {
