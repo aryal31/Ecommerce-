@@ -11,11 +11,11 @@ const Featured = () => {
   return (
     <>
       <Wrapper>
-        <div className="flex mt-[140px] justify-between sm:hidden">
+        <div className="md:flex mt-[140px] justify-between hidden">
           <Heading date="Featured" title="New arrival" />
           <Arrow />
         </div>
-        <div className="flex flex-shrink gap-[30px] text-white align-center justify-center mt-3 flex-wrap">
+        <div className="md:flex flex-shrink gap-[30px] text-white align-center justify-center mt-3 flex-wrap hidden">
           <div className="bg-black h-[600px] w-[570px] rounded-[4px] relative ">
             <img
               src={playstation}

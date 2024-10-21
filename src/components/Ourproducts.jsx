@@ -13,7 +13,7 @@ const Ourproducts = () => {
           <Heading date="Our products" title="explore our products" />
           <Arrow />
         </div>
-        <div className="flex gap-4 mt-3 flex-wrap">
+        <div className="flex gap-4 mt-3 flex-wrap items-center justify-center">
           <Itemcard></Itemcard>
           <Itemcard></Itemcard>
           <Itemcard></Itemcard>

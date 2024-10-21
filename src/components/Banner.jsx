@@ -5,7 +5,7 @@ import jbl from "../assets/images/jbl.png";
 const Banner = () => {
   return (
     <Wrapper>
-      //this component is not yet fully dynamic. 
+      {/* //this component is not yet fully dynamic.  */}
       <div className="bg-black w-[100vw] h-[500px] lg:w-[1120px] text-white md:flex mt-[40px] justify-center items-center hidden">
         <div className="flex flex-col ml-[60px]">
           <div className="text-[16px] text-[#00FF66]">Categories</div>
