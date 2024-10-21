@@ -19,16 +19,18 @@ const Wishlistpage = () => {
           <ItemCardinWishlistSuggestion />
 
           </div>
+          <div>
           <div className="flex justify-between items-center">
           <Heading date="just for you" textClr="text-black" />
-          <button className="items-center justify-center h-[56px] w-[150px] border-black border-[1px] rounded-[3px]">See All</button>
+          <Buttonwithoutline text='See All'></Buttonwithoutline>
           </div>
-         <div className="flex gap-3 flex-wrap">
+         <div className="flex gap-3 flex-wrap items-center">
+         <Itemcardinwishlist />
          <Itemcardinwishlist />
          <Itemcardinwishlist />
          <Itemcardinwishlist />
          </div>
-          
+         </div>
         </div>
       </div>
     </div>
