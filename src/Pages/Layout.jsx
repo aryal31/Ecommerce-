@@ -23,9 +23,7 @@ const Layout = () => {
   return (
     <div>
       <Top />
-      {
-        windowWidth >1032 ? <Navbar/> : <Smallnavbar/>
-      }
+      {windowWidth > 1032 ? <Navbar /> : <Smallnavbar />}
       <Outlet />
       <Footer />
     </div>

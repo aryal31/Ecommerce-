@@ -1,6 +1,7 @@
 import React from "react";
 import Viewallbutton from "../components/Viewallbutton";
 import Orangebutton from "../components/Orangebutton";
+import { Link } from "react-router-dom";
 
 const Errorpage = () => {
   return (
@@ -9,7 +10,7 @@ const Errorpage = () => {
       <div className="text-[16px] mb-[30px]">
         Your visited page not found. You may go home page.
       </div>
-      <Orangebutton text={"Back to home page"} />
+      <Link to='/'><Orangebutton text={"Back to home page"} /></Link>
     </div>
   );
 };
