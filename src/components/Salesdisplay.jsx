@@ -1,7 +1,4 @@
 import React, { useState } from "react";
-import { PiMoneyWavy } from "react-icons/pi";
-import { RiCustomerService2Line } from "react-icons/ri";
-import { TbTruckDelivery } from "react-icons/tb";
 import { CiShop, CiDollar } from "react-icons/ci";
 import { FiShoppingBag } from "react-icons/fi";
 import { FaSackDollar } from "react-icons/fa6";

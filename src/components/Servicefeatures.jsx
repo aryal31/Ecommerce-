@@ -24,7 +24,7 @@ const serviceList = [
 const Servicefeatures = () => {
   return (
     <Wrapper>
-      <div className="flex gap-[88px] pt-[140px] items-center justify-center mb-[140px] flex-wrap">
+      <div className="flex gap-[88px] items-center justify-center flex-wrap">
         {serviceList.map((item, index) => {
           return (
             <div

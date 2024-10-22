@@ -8,7 +8,7 @@ const Myaccount = () => {
       <div className="text-[20px] text-[#DB4444] font-semibold">
         Edit your profile
       </div>
-      <div className="flex gap-[40px]">
+      <div className="flex gap-[40px] flex-wrap">
         <div className="flex flex-col">
           <label htmlFor="fname">First Name</label>
           <input
@@ -32,7 +32,7 @@ const Myaccount = () => {
           </div>
         </div>
       </div>
-      <div className="flex gap-[40px]">
+      <div className="flex gap-[40px] flex-wrap">
         <div className="flex flex-col">
           <label htmlFor="fname">Email</label>
           <input
