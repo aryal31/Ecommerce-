@@ -10,20 +10,20 @@ const Options = () => {
     {/* This compnent is not yet completed */}
       
       <div>
-      <div className="flex flex-col md:flex-row items-center md:justify-center">
+      <div className="flex flex-col md:flex-row items-center md:justify-center ">
      
-        <div className="md:flex flex-col space-y-[16px] mt-[45px] order-1 md:ml-3">
+        <div className="md:flex flex-col space-y-[5px] mt-[45px] order-1 grid grid-cols-2 gap-[15px]">
           <ul className="flex items-center space-x-3">
             <li>Woman's fashion</li>
-            <li>
+            {/* <li>
               <SlArrowRight />
-            </li>
+            </li> */}
           </ul>
           <ul className="flex items-center space-x-10">
-            <li>Men's fashion</li>{" "}
-            <li>
+            <li>Men's fashion</li>
+            {/* <li>
               <SlArrowRight />
-            </li>
+            </li> */}
           </ul>
           <ul>Electronics</ul>
           <ul>Home & lifestyle</ul>
@@ -32,10 +32,11 @@ const Options = () => {
           <ul>Babys & toys</ul>
           <ul>groceries & pets</ul>
           <ul>Health & beauty</ul>
+          <ul>office & work</ul>
         </div>
         <div className="border-l-[1px] border-[#c9c9c9c9] self-stretch md:mx-8 order-1"></div>
         <div className="flex md:ml-[40px] md:mt-[45px] mt-[10px] md:order-1">
-          <img src={optionsimg} alt="" className="w-auto h-auto" />
+          <img src={optionsimg} alt="" className="w-auto h-full" />
         </div>
       </div>
       </div>

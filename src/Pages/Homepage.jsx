@@ -21,7 +21,7 @@ const Homepage = () => {
       <Banner />
       <Ourproducts />
       <Featured />
-      <Servicefeatures />
+      <div className="my-[40px]"><Servicefeatures /></div>
     </div>
   );
 };

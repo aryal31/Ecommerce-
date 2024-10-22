@@ -19,7 +19,7 @@ const ProductView = () => {
   return (
     <div className="flex items-center justify-center">
       <div className="flex gap-[30px] flex-wrap">
-        <div className="md:npnflex flex-col gap-4 hidden">
+        <div className="md:flex flex-col gap-4 hidden">
           <div className="w-[170px] h-[138px] bg-[#F5F5F5] items-center justify-center flex">
             <img src={controllerview1} alt="" />
           </div>
