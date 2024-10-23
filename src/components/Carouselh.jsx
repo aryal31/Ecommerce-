@@ -14,7 +14,7 @@ const Carouselh = ({ slides }) => {
     else setCurrent(current + 1);
   };
 
-  const slideInterval = 3000;
+  const slideInterval = 4000;
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -23,6 +23,10 @@ const Carouselh = ({ slides }) => {
 
     return () => clearInterval(interval); // Cleanup on unmount
   }, [current]); // Depend on current to reset interval on manual change
+
+  const handleDotClick= (index)=>{
+    setCurrent(index)
+  }
 
   return (
     <div className="overflow-hidden relative">
@@ -36,16 +40,16 @@ const Carouselh = ({ slides }) => {
       </div>
       <div className="absolute top-0 h-full w-full justify-between flex items-center text-white px-4 text-3xl">
         <button>
-          <FaArrowCircleLeft onClick={previousSlide} />
+          <FaArrowCircleLeft onClick={previousSlide} className="opacity-40 hover:opacity-100" />
         </button>
         <button>
-          <FaArrowCircleRight onClick={nextSlide} />
+          <FaArrowCircleRight onClick={nextSlide} className="opacity-40 hover:opacity-100" />
         </button>
       </div>
       <div className="absolute bottom-0 py-4 flex justify-center gap-4 w-full">
         {slides.map((s, i) => {
           return (
-            <div
+            <div onClick={()=>handleDotClick(i)}
               key={"circle" + i}
               className={`rounded-full h-4 w-4 flex items-center justify-center ${
                 i == current ? "bg-white" : "bg-gray-400"
