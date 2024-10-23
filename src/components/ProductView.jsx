@@ -14,8 +14,7 @@ import { CiHeart } from "react-icons/ci";
 import Itemsincrementer from "./Itemsincrementer";
 
 const ProductView = () => {
-
-  const [colorOptionClicked, setColorOptionClicked]= useState('')
+  const [colorOptionClicked, setColorOptionClicked] = useState("");
   return (
     <div className="flex items-center justify-center">
       <div className="flex gap-[30px] flex-wrap">
@@ -54,9 +53,26 @@ const ProductView = () => {
           <hr className="border- border-black border-opacity-40 my-4" />
           <div className="text-[20px] mb-3 flex items-center gap-4">
             <p>Colors:</p>
-            <div className={`bg-[#A0BCE0] h-[20px] w-[20px] rounded-full ${colorOptionClicked === 'first' ? 'outline outline-black outline-[2px] outline-offset-2':''}`} onClick={()=>{setColorOptionClicked('first')}}></div>
-            <div className={`bg-[#E07575] h-[20px] w-[20px] rounded-full  ${colorOptionClicked === 'second' ? 'outline outline-black outline-[2px] outline-offset-2':''}`} onClick={()=>{setColorOptionClicked('second')}}></div>
-          
+            <div
+              className={`bg-[#A0BCE0] h-[20px] w-[20px] rounded-full ${
+                colorOptionClicked === "first"
+                  ? "outline outline-black outline-[2px] outline-offset-2"
+                  : ""
+              }`}
+              onClick={() => {
+                setColorOptionClicked("first");
+              }}
+            ></div>
+            <div
+              className={`bg-[#E07575] h-[20px] w-[20px] rounded-full  ${
+                colorOptionClicked === "second"
+                  ? "outline outline-black outline-[2px] outline-offset-2"
+                  : ""
+              }`}
+              onClick={() => {
+                setColorOptionClicked("second");
+              }}
+            ></div>
           </div>
           <div className="py-1 flex gap-1 items-center mb-3">
             <p>Size:</p> <Size />

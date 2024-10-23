@@ -29,13 +29,13 @@ const Carouselh = ({ slides }) => {
   }
 
   return (
-    <div className="overflow-hidden relative">
+    <div className="overflow-hidden relative ">
       <div
-        className={`flex transition ease-out duration-400`}
+        className={`flex transition ease-out duration-1000`}
         style={{ transform: `translateX(-${current * 100}%)` }}
       >
-        {slides.map((s) => {
-          return <img src={s} alt="" />;
+        {slides.map((s,i) => {
+          return <img key={i} src={s} alt="" className="" />;
         })}
       </div>
       <div className="absolute top-0 h-full w-full justify-between flex items-center text-white px-4 text-3xl">
@@ -50,7 +50,7 @@ const Carouselh = ({ slides }) => {
         {slides.map((s, i) => {
           return (
             <div onClick={()=>handleDotClick(i)}
-              key={"circle" + i}
+              key={i}
               className={`rounded-full h-4 w-4 flex items-center justify-center ${
                 i == current ? "bg-white" : "bg-gray-400"
               }`}

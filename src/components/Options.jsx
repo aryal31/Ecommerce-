@@ -5,22 +5,35 @@ import Wrapper from "./Wrapper";
 import Carouselh from "./Carouselh";
 import landscape from "../assets/images/landscape.jpg";
 import lake from "../assets/images/lake.jpg";
-import img2 from '../assets/images/img2.jpg'
+import img2 from '../assets/images/img2.png'
+import img3 from '../assets/images/img3.png'
+import img4 from '../assets/images/img4.png'
+import img5 from '../assets/images/img5.png'
+
+
+// const Options = () => {
+//   let slides = [
+//     landscape,
+//     lake,
+//     img2,
+//   ]
+
 
 const Options = () => {
   let slides = [
-    landscape,
-    lake,
     img2,
+    img3,
+    img4,
+    img5
   ]
   return (
     <Wrapper>
     {/* This compnent is not yet completed */}
       
       <div>
-      <div className="flex flex-col md:flex-row items-center md:justify-center ">
+      <div className="flex flex-col xl:flex-row items-center">
      
-        <div className="md:flex flex-col space-y-[5px] mt-[45px] order-1 grid grid-cols-2 gap-[15px]">
+        <div className="xl:flex flex-col space-y-[5px] mt-[45px] order-1 grid grid-cols-2 md:gap-x-[500px] gap-x-[90px] sm:gap-x-[200px] gap-y-[20px]">
           <ul className="flex items-center space-x-3">
             <li>Woman's fashion</li>
             {/* <li>
@@ -43,7 +56,7 @@ const Options = () => {
           <ul>office & work</ul>
         </div>
         <div className="border-l-[1px] border-[#c9c9c9c9] self-stretch md:mx-8 order-1" ></div>
-        <div className="flex md:ml-[40px] md:mt-[20px] mt-[10px] md:order-1 md:w-[60%] ">
+        <div className="flex xl:ml-[40px] xl:order-1 xl:mt-[20px] mt-[10px] md:max-w-[1180px] xl:max-w-[870px]">
           {/* <img src={optionsimg} alt="" className="w-auto h-full" /> */}
           <Carouselh slides={slides}></Carouselh>
         </div>
