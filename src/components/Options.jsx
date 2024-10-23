@@ -2,9 +2,17 @@ import React from "react";
 import optionsimg from "../assets/images/optionsimg.png";
 import { SlArrowRight } from "react-icons/sl";
 import Wrapper from "./Wrapper";
-
+import Carouselh from "./Carouselh";
+import landscape from "../assets/images/landscape.jpg";
+import lake from "../assets/images/lake.jpg";
+import img2 from '../assets/images/img2.jpg'
 
 const Options = () => {
+  let slides = [
+    landscape,
+    lake,
+    img2,
+  ]
   return (
     <Wrapper>
     {/* This compnent is not yet completed */}
@@ -34,9 +42,10 @@ const Options = () => {
           <ul>Health & beauty</ul>
           <ul>office & work</ul>
         </div>
-        <div className="border-l-[1px] border-[#c9c9c9c9] self-stretch md:mx-8 order-1"></div>
-        <div className="flex md:ml-[40px] md:mt-[45px] mt-[10px] md:order-1">
-          <img src={optionsimg} alt="" className="w-auto h-full" />
+        <div className="border-l-[1px] border-[#c9c9c9c9] self-stretch md:mx-8 order-1" ></div>
+        <div className="flex md:ml-[40px] md:mt-[20px] mt-[10px] md:order-1 md:w-[60%] ">
+          {/* <img src={optionsimg} alt="" className="w-auto h-full" /> */}
+          <Carouselh slides={slides}></Carouselh>
         </div>
       </div>
       </div>
