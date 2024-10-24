@@ -1,4 +1,3 @@
-import React, { useEffect, useState, useRef } from "react";
 import { CiSearch } from "react-icons/ci";
 import { CiHeart, CiShoppingCart, } from "react-icons/ci";
 import Usermenu from "./Usermenu";

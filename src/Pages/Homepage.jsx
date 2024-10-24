@@ -8,6 +8,7 @@ import Banner from "../components/Banner";
 import Ourproducts from "../components/Ourproducts";
 import Featured from "../components/Featured";
 import Servicefeatures from "../components/Servicefeatures";
+import Itemcard from "../components/Itemcard";
 
 const Homepage = () => {
   return (
