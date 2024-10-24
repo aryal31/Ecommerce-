@@ -4,7 +4,7 @@ import { CiSearch } from 'react-icons/ci'
 const Searchpopup = ({onClose}) => {
   return (
     
-       <div className='fixed items-center justify-center flex flex-col bg-black bg-opacity-50 inset-0 z-20'>
+       <div className='fixed items-center justify-center flex flex-col bg-black bg-opacity-50 inset-0 z-50'>
           <div className='bg-white w-full max-w-2xl p-6 rounded-lg shadow-lg'>
           
           <div className='flex'>

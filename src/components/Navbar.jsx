@@ -1,12 +1,8 @@
 import React, { useEffect, useState, useRef } from "react";
 import { CiSearch } from "react-icons/ci";
-import { CiHeart, CiShoppingCart, CiUser } from "react-icons/ci";
-import { FiShoppingBag } from "react-icons/fi";
-import { MdOutlineCancel } from "react-icons/md";
-import { FaRegStar } from "react-icons/fa";
-import { CiLogout } from "react-icons/ci";
-import { Link } from "react-router-dom";
+import { CiHeart, CiShoppingCart, } from "react-icons/ci";
 import Usermenu from "./Usermenu";
+import { NavLink } from "react-router-dom";
 
 
 <CiSearch />;
@@ -33,26 +29,23 @@ const navLinks = [ // you can add other pages in navbar by just simplying adding
 
 const Navbar = () => {
   
-  const [category, setCategory] = useState("");
   return (
     <div>
       <div className="flex items-center justify-between px-[30px] md:px-[50px] p-[30px] gap-[10px]">
-        <div className="text-[24px] font-bold"><Link to='/'>Exclusive</Link></div>
+        <div className="text-[24px] font-bold"><NavLink to='/' end>Exclusive</NavLink></div>
         <ul className="text-black flex gap-x-[30px]">
         {navLinks.map((item, index) => {
             return (
-              <Link
+              <NavLink
                 to={item.path}
-                className={`capitalize cursor-pointer ${(category === item.text
-                  ? "underline underline-offset-[6px]"
+                className={({isActive})=>`capitalize cursor-pointer ${(isActive?
+                  "underline underline-offset-[6px]"
                   : "")}`}
-                onClick={()=>{
-                  setCategory(item.text)
-                }}
+                end={item.path === '/'}
                 key={index}
               >
                 {item.text}
-              </Link>
+              </NavLink>
             );
           })}
          
@@ -66,12 +59,12 @@ const Navbar = () => {
             />
             <CiSearch className="text-gray-500 size-[30px]" />
           </div>
-          <Link to='wishlist'>
+          <NavLink to='wishlist'>
           <CiHeart className="size-[30px]" />
-          </Link>
-          <Link to='cart'>
+          </NavLink>
+          <NavLink to='cart'>
           <CiShoppingCart className="size-[30px]" />
-          </Link>
+          </NavLink>
          <Usermenu/>
         </div>
       </div>

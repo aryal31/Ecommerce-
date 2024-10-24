@@ -31,15 +31,15 @@ const Usermenu = () => {
   }, [dropdownRef]);
 
   return (
-    <div className='relative'>
+    <div className='relative z-50'>
        <CiUser
-            className={`size-[30px] cursor-pointer ${userclicked === true ? 'bg-[#db4444] rounded-full text-white':''}`}
+            className={`size-[32px] cursor-pointer ${userclicked === true ? 'bg-[#db4444] rounded-full text-white':''}`}
             onClick={() => handleuserclicked()}
           />
           {userclicked && (
             <div
               ref={dropdownRef}
-              className="absolute top-[100%] right-0 bg-[#7d7d7d] text-white bg-opacity-70 backdrop-blur-lg rounded-lg"
+              className="absolute top-[100%] right-0 bg-[#7d7d7d] text-white bg-opacity-70 backdrop-blur-lg rounded-lg mt-2"
             >
               <ul className="flex flex-col">
                 <Link to='account' className="cursor-pointer hover:bg-[#7d7d7d] p-2 rounded-t-lg flex justify-start items-center gap-x-3">
