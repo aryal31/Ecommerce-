@@ -5,8 +5,8 @@ import { MdOutlineShoppingCart } from "react-icons/md";
 
 const Itemcardinwishlist = () => {
   return (
-    <div className="h-[350px] w-[270px] flex flex-col relative group">
-      <div className=" bg-[#F5F5F5] h-[250px] ">
+    <div className="h-[350px] w-[270px] flex flex-col relative">
+      <div className=" bg-[#F5F5F5] h-[250px]">
         <div>
           <div className="bg-[#db4444] rounded-[5px] w-[60px] h-[30px] text-[#f5f5f5f5] absolute mt-2 ml-3 items-center justify-center flex">
             -35%
@@ -29,8 +29,8 @@ const Itemcardinwishlist = () => {
         <span className="line-through ml-4 text-[#808080]">$140</span>
       </div>
       <div className="flex items-center">
-        <img src={rating} alt="rating" className="w-[80px]" />{" "}
-        <span className="ml-1 text-[#808080]">(20)</span>{" "}
+        <img src={rating} alt="rating" className="w-[80px]" />
+        <span className="ml-1 text-[#808080]">(10)</span>
       </div>
     </div>
   );

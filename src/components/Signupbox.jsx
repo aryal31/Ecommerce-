@@ -6,7 +6,7 @@ const Signupbox = () => {
   return (
     <div>
       <div className="flex flex-col">
-        <p className="text-[16px] lg:text-[20px] xl:text-[36px] mb-[10px]">
+        <p className="font-semibold text-[16px] lg:text-[20px] xl:text-[36px] mb-[10px]">
           Create your account
         </p>
         <label for="email" className="text-[16px]">

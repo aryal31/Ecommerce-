@@ -22,7 +22,7 @@ const Homepage = () => {
       <Banner />
       <Ourproducts />
       <Featured />
-      <div className="my-[40px]"><Servicefeatures /></div>
+      <div className="md:my-[80px] my-8"><Servicefeatures /></div>
     </div>
   );
 };

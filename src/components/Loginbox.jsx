@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Loginbox = () => {
   return (
     <div className="flex flex-col">
-      <p className="text-[16px] lg:text-[20px] xl:text-[36px]">
+      <p className="font-semibold text-[16px] lg:text-[20px] xl:text-[36px]">
         Log in to Executive
       </p>
       <label for="email" className="text-[16px]">
