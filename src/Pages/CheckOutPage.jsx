@@ -10,12 +10,12 @@ const CheckOutPage = () => {
     <div>
       <div className="flex items-center justify-center gap-[173px] flex-wrap">
         <div className="flex flex-col">
-          <div className="mb-[48px] text-[36px]">Billing Detail</div>
-          <label htmlFor="name" className="text-[black] opacity-40 text-[16px]">
-            First Name<sup className="text-red-900">*</sup>{" "}
+          <div className="md:mb-[48px] md:text-[36px] text-[20px]">Billing Detail</div>
+          <label htmlFor="name" className="text-[black] opacity-40 md:text-[16px] text-[14px]">
+            First Name<sup className="text-red-900">*</sup>
           </label>
           <input
-            className="h-[50px] w-[470px] bg-[#F5F5F5] mt-[8px] mb-[32px]"
+            className="md:h-[50px] md:w-[470px] bg-[#F5F5F5] mt-[8px] md:mb-[32px] h-[30px] w-[300px] focus:outline-none"
             type="text"
             id="name"
             required
@@ -25,10 +25,10 @@ const CheckOutPage = () => {
             htmlFor="companyname"
             className="text-[black] opacity-40 text-[16px]"
           >
-            Company Name<sup className="text-red-900">*</sup>{" "}
+            Company Name<sup className="text-red-900">*</sup>
           </label>
           <input
-            className="h-[50px] w-[470px] bg-[#F5F5F5] mt-[8px] mb-[32px]"
+            className="md:h-[50px] md:w-[470px] bg-[#F5F5F5] mt-[8px] md:mb-[32px] h-[30px] w-[300px] focus:outline-none"
             type="text"
             id="companyname"
             required
@@ -41,7 +41,7 @@ const CheckOutPage = () => {
             Street Address<sup className="text-red-900">*</sup>
           </label>
           <input
-            className="h-[50px] w-[470px] bg-[#F5F5F5] mt-[8px] mb-[32px]"
+            className="md:h-[50px] md:w-[470px] bg-[#F5F5F5] mt-[8px] md:mb-[32px] h-[30px] w-[300px] focus:outline-none"
             type="text"
             id="streetadd"
             required
@@ -54,7 +54,7 @@ const CheckOutPage = () => {
             Apartment,floor,etc. (optional)
           </label>
           <input
-            className="h-[50px] w-[470px] bg-[#F5F5F5] mt-[8px] mb-[32px]"
+            className="md:h-[50px] md:w-[470px] bg-[#F5F5F5] mt-[8px] md:mb-[32px] h-[30px] w-[300px] focus:outline-none"
             type="text"
             id="apartment"
             required
@@ -67,7 +67,7 @@ const CheckOutPage = () => {
             Phone Number<sup className="text-red-900">*</sup>
           </label>
           <input
-            className="h-[50px] w-[470px] bg-[#F5F5F5] mt-[8px] mb-[32px]"
+            className="md:h-[50px] md:w-[470px] bg-[#F5F5F5] mt-[8px] md:mb-[32px] h-[30px] w-[300px]"
             type="text"
             id="phone"
             required
@@ -80,7 +80,7 @@ const CheckOutPage = () => {
             Email<sup className="text-red-900">*</sup>{" "}
           </label>
           <input
-            className="h-[50px] w-[470px] bg-[#F5F5F5] mt-[8px] mb-[24px]"
+            className="md:h-[50px] md:w-[470px] bg-[#F5F5F5] mt-[8px] md:mb-[32px] h-[30px] w-[300px]"
             type="email"
             id="email"
             required
