@@ -5,11 +5,11 @@ import Wrapper from "./Wrapper";
 import Itemcard from "./Itemcard";
 import Orangebutton from "./Orangebutton";
 
-const Flashsale = () => {
+const Flashsale = ({className}) => {
   return (
     <>
       <Wrapper>
-      <div className="flex mt-[50px] justify-between">
+      <div className={`flex justify-between ${className}`}>
           <Heading date="Today's" title="flash sales" />
           <Arrow />
         </div>

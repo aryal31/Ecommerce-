@@ -14,7 +14,7 @@ const Homepage = () => {
   return (
     <div>
       <Options />
-      <Flashsale />
+      <Flashsale className='md:mt-[100px] mt-[50px]' />
       <Line />
       <Browsebycategory />
       <Line />
