@@ -5,7 +5,7 @@ const CartTotalbox = () => {
     <div className="border-[1.5px] border-black rounded-md flex flex-col w-[400px] md:w-[470px] md:h-[324px] p-5">
       <div className="text-[20px] font-semibold mb-[24px]">Cart Total</div>
       <div className="flex justify-between">
-        <p className="text-[16px] md:text-[16px]">Subtotal:</p>
+        <p className="text-[16px]  md:text-[16px]">Subtotal:</p>
         <p>$175</p>
       </div>
       <div className="bg-[#D9D9D9] w-full h-[1.5px] my-[16px]"></div>

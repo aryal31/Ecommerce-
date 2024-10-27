@@ -53,7 +53,7 @@ const Navbar = () => {
           <div className="bg-[#e6e6e6] px-2 py-[3px] border border-black rounded-[4px] flex items-center">
             <input
               type="text"
-              placeholder="whare are you looking for?"
+              placeholder="What are you looking for?"
               className="bg-transparent outline-none"
             />
             <CiSearch className="text-gray-500 size-[30px]" />

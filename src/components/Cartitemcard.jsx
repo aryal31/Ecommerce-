@@ -1,5 +1,6 @@
 import React from "react";
 import controller from "../assets/images/controller.png";
+import Quantitycounter from "./Quantitycounter";
 
 const Cartitemcard = () => {
   return (
@@ -10,7 +11,8 @@ const Cartitemcard = () => {
         </div>
         <p className="text-center text-[12px] md:text-[16px]">$120</p>
         <div className="flex justify-center">
-          <input type="number" className="border-[#d9d9d9] border-[1.5px] rounded-sm bg-none w-[72px] h-[44px] text-center" />
+          <Quantitycounter></Quantitycounter>
+          {/* <input type="number" className="border-[#d9d9d9] border-[1.5px] rounded-sm bg-none w-[72px] h-[44px] text-center" /> */}
         </div>
         <p className="text-center text-[12px] md:text-[16px]">$650</p>
       </div>
