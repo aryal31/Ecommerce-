@@ -42,20 +42,20 @@ const Smallnavbar = () => {
       <div className="flex items-center justify-between px-[30px] md:px-[50px] p-[30px] gap-[10px]">
         <div className="text-[20px] font-bold flex gap-4 items-center">
           <RxHamburgerMenu
-            className="size-[40px]"
+            className="size-[30px]"
             onClick={toggleSidebarOpen}
           />
           <Link to="/">Exclusive</Link>
         </div>
         <div className="flex items-center gap-4">
           <div className="relative">
-            <CiSearch className="size-[30px]" onClick={toggleSearchPopup} />
+            <CiSearch className="size-[25px]" onClick={toggleSearchPopup} />
           </div>
           <Link to="wishlist">
-            <CiHeart className="size-[30px]" />
+            <CiHeart className="size-[25px]" />
           </Link>
           <Link to="cart">
-            <CiShoppingCart className="size-[30px]" />
+            <CiShoppingCart className="size-[25px]" />
           </Link>
           <Usermenu></Usermenu>
         </div>

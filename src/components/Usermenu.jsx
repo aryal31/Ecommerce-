@@ -33,7 +33,7 @@ const Usermenu = () => {
   return (
     <div className='relative z-50'>
        <CiUser
-            className={`size-[32px] cursor-pointer ${userclicked ? 'bg-[#db4444] rounded-full text-white h-[30px] w-[30px]':''}`}
+            className={`size-[25px] md:size-[32px] cursor-pointer ${userclicked ? 'bg-[#db4444] rounded-full text-white h-[30px] w-[30px]':''}`}
             onClick={() => handleuserclicked()}
           />
           {userclicked && (
