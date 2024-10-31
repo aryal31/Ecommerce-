@@ -1,6 +1,5 @@
 import React from "react";
-import Viewallbutton from "../components/Viewallbutton";
-import Orangebutton from "../components/Orangebutton";
+import Orangebutton from "../components/common/Orangebutton";
 import { Link } from "react-router-dom";
 
 const Errorpage = () => {

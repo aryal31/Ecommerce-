@@ -1,5 +1,5 @@
 import React from "react";
-import Orangebutton from "../components/Orangebutton";
+import Orangebutton from "../components/common/Orangebutton";
 import controller from "../assets/images/controller.png";
 import visa from "../assets/images/visa.png";
 import mastercard from "../assets/images/mastercard.png";

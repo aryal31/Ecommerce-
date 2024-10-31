@@ -1,6 +1,6 @@
 import React from "react";
 import Heading from "./Heading";
-import Arrow from "./Arrow";
+import Arrow from "../components/common/Arrow";
 import Wrapper from "./Wrapper";
 import playstation from "../assets/images/playstation.png";
 import speaker from "../assets/images/speaker.png";

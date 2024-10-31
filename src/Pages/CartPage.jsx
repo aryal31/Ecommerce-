@@ -1,8 +1,8 @@
 import Breadcrumb from "../components/Breadcrumb";
-import Buttonwithoutline from "../components/Buttonwithoutline";
+import Buttonwithoutline from "../components/common/Buttonwithoutline";
 import Cartitemcard from "../components/Cartitemcard";
 import CartTotalbox from "../components/CartTotalbox";
-import Orangebutton from "../components/Orangebutton";
+import Orangebutton from "../components/common/Orangebutton";
 import Wrapper from "../components/Wrapper";
 const CartPage = () => {
   return (

@@ -1,6 +1,5 @@
 import React from "react";
-import Orangebutton from "../components/Orangebutton";
-
+import Orangebutton from "../components/common/Orangebutton";
 const Myaccount = () => {
   return (
       <div className="flex items-center justify-center shadow-sm">

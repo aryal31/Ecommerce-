@@ -1,9 +1,8 @@
 import React from "react";
 import Heading from "./Heading";
 import Wrapper from "./Wrapper";
-import Viewallbutton from "./Viewallbutton";
 import Itemcard from "./Itemcard";
-import Orangebutton from "./Orangebutton";
+import Orangebutton from "./common/Orangebutton";
 
 const Bestsellingproducts = () => {
   return (

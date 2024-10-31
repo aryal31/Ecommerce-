@@ -1,8 +1,8 @@
 import React from "react";
 import Heading from "./Heading";
-import Arrow from "./Arrow";
+import Arrow from "./common/Arrow";
 import Wrapper from "./Wrapper";
-import Orangebutton from "./Orangebutton";
+import Orangebutton from "./common/Orangebutton";
 import Itemcard from "./Itemcard";
 
 const Ourproducts = () => {
@@ -20,11 +20,12 @@ const Ourproducts = () => {
           <Itemcard></Itemcard>
         </div>
 
-        <div className="flex items-center justify-center pt-2"><Orangebutton text="View all products" /></div>
+        <div className="flex items-center justify-center pt-2">
+          <Orangebutton text="View all products" />
+        </div>
       </Wrapper>
     </>
   );
 };
 
 export default Ourproducts;
-        

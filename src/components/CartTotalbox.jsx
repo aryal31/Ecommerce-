@@ -1,4 +1,4 @@
-import Orangebutton from "./Orangebutton";
+import Orangebutton from "./common/Orangebutton";
 
 const CartTotalbox = () => {
   return (

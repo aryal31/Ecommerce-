@@ -2,7 +2,7 @@ import React from "react";
 import Itemcardinwishlist from "../components/Itemcardinwishlist";
 import ItemCardinWishlistSuggestion from "../components/ItemCardinWishlistSuggestion";
 import Heading from "../components/Heading";
-import Buttonwithoutline from "../components/Buttonwithoutline";
+import Buttonwithoutline from "../components/common/Buttonwithoutline";
 ItemCardinWishlistSuggestion;
 
 const Wishlistpage = () => {

@@ -1,6 +1,6 @@
 import { CiSearch } from "react-icons/ci";
 import { CiHeart, CiShoppingCart, } from "react-icons/ci";
-import Usermenu from "./Usermenu";
+import Usermenu from "../Usermenu";
 import { NavLink } from "react-router-dom";
 
 
@@ -56,7 +56,7 @@ const Navbar = () => {
               placeholder="What are you looking for?"
               className="bg-transparent outline-none"
             />
-            <CiSearch className="text-gray-500 size-[30px]" />
+            <CiSearch className="text-gray-500 size-[30px] cursor-pointer" />
           </div>
           <NavLink to='wishlist'>
           <CiHeart className="size-[30px]" />
