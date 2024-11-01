@@ -1,7 +1,7 @@
 import React from "react";
 import Heading from "./Heading";
 import Arrow from "./common/Arrow";
-import Wrapper from "./Wrapper";
+import Wrapper from "./common/Wrapper";
 import Orangebutton from "./common/Orangebutton";
 import Itemcard from "./Itemcard";
 

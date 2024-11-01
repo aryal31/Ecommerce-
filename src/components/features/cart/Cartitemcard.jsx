@@ -1,6 +1,6 @@
 import React from "react";
-import controller from "../assets/images/controller.png";
-import Quantitycounter from "./Quantitycounter";
+import controller from "../../../assets/images/controller.png";
+import Quantitycounter from "../../Quantitycounter";
 
 const Cartitemcard = () => {
   return (

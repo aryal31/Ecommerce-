@@ -1,11 +1,11 @@
 import React from "react";
-import Heading from "./Heading";
-import Arrow from "../components/common/Arrow";
-import Wrapper from "./Wrapper";
-import playstation from "../assets/images/playstation.png";
-import speaker from "../assets/images/speaker.png";
-import perfume from "../assets/images/perfume.png";
-import women from "../assets/images/women.png";
+import Heading from "../../Heading";
+import Arrow from "../../common/Arrow";
+import Wrapper from "../../common/Wrapper";
+import playstation from "../../../assets/images/playstation.png";
+import speaker from "../../../assets/images/speaker.png";
+import perfume from "../../../assets/images/perfume.png";
+import women from "../../../assets/images/women.png";
 
 const Featured = () => {
   return (
@@ -45,10 +45,7 @@ const Featured = () => {
               <div className="h-[284px] w-[270px] rounded-[4px] bg-black gap-5 relative">
                 <img src={speaker} alt="" className="pl-[50px] pt-[40px]" />
                 <div className="absolute h-[85px] w-[191px] bottom-[40px] left-[35px]">
-                  <p className="text-[24px] font-semibold">
-                    {" "}
-                    Speakers
-                  </p>
+                  <p className="text-[24px] font-semibold"> Speakers</p>
                   <p className="text-[14px] mt-[16px] mb-[16px]">
                     Amazon wireless speakers
                   </p>
@@ -58,10 +55,7 @@ const Featured = () => {
               <div className="h-[284px] w-[270px] rounded-[4px] bg-black gap-5 relative">
                 <img src={perfume} alt="" className="pl-[50px] pt-[40px]" />
                 <div className="absolute h-[85px] w-[191px] bottom-[40px] left-[35px]">
-                  <p className="text-[24px] font-semibold">
-                    {" "}
-                    Perfume
-                  </p>
+                  <p className="text-[24px] font-semibold"> Perfume</p>
                   <p className="text-[14px] mt-[16px] mb-[16px]">
                     GUCCI Intese oud edp
                   </p>

@@ -1,9 +1,9 @@
 import Breadcrumb from "../components/Breadcrumb";
 import Buttonwithoutline from "../components/common/Buttonwithoutline";
-import Cartitemcard from "../components/Cartitemcard";
-import CartTotalbox from "../components/CartTotalbox";
+import Cartitemcard from "../components/features/cart/Cartitemcard";
+import CartTotalbox from "../components/features/cart/CartTotalbox";
 import Orangebutton from "../components/common/Orangebutton";
-import Wrapper from "../components/Wrapper";
+import Wrapper from "../components/common/Wrapper";
 const CartPage = () => {
   return (
     <Wrapper>
@@ -29,8 +29,14 @@ const CartPage = () => {
           </div>
 
           <div className="flex justify-between mt-6">
-            <Buttonwithoutline text="Return to shop" className='w-[120px] h-[40px]'></Buttonwithoutline>
-            <Buttonwithoutline text="Update Cart"className='w-[120px] h-[40px]' ></Buttonwithoutline>
+            <Buttonwithoutline
+              text="Return to shop"
+              className="w-[120px] h-[40px]"
+            ></Buttonwithoutline>
+            <Buttonwithoutline
+              text="Update Cart"
+              className="w-[120px] h-[40px]"
+            ></Buttonwithoutline>
           </div>
 
           <div className="flex justify-between mt-8 flex-wrap gap-1">
@@ -41,7 +47,10 @@ const CartPage = () => {
                 className="border-black border-[1px] rounded-sm w-[130px] md:w-full md:h-[56px] pl-3"
               />
               <div className="mt-4">
-                <Orangebutton text="Apply Coupon" className='md:h-[40px] md:w-[150px] h-[40px] w-[100%]'/>
+                <Orangebutton
+                  text="Apply Coupon"
+                  className="md:h-[40px] md:w-[150px] h-[40px] w-[100%]"
+                />
               </div>
             </div>
             <div>

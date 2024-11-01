@@ -1,9 +1,8 @@
 import React from "react";
-import Heading from "./Heading";
-import Wrapper from "./Wrapper";
-import Itemcard from "./Itemcard";
-import Orangebutton from "./common/Orangebutton";
-
+import Heading from "../../Heading";
+import Wrapper from "../../common/Wrapper";
+import Itemcard from "../../Itemcard";
+import Orangebutton from "../../common/Orangebutton";
 const Bestsellingproducts = () => {
   return (
     <>
@@ -11,7 +10,7 @@ const Bestsellingproducts = () => {
         <div className="flex justify-between ">
           <Heading date="This Month" title="Best selling products" />
           <div className="self-end">
-            <Orangebutton text='view all' />
+            <Orangebutton text="view all" />
           </div>
         </div>
 

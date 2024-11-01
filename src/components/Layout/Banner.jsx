@@ -1,6 +1,6 @@
 import React from "react";
-import Wrapper from "./Wrapper";
-import jbl from "../assets/images/jbl.png";
+import Wrapper from "../common/Wrapper";
+import jbl from "../../assets/images/jbl.png";
 
 const Banner = () => {
   return (
@@ -39,7 +39,7 @@ const Banner = () => {
           </div>
         </div>
         <div className="hidden md:flex">
-          <img src={jbl} alt="jbl logo"  />
+          <img src={jbl} alt="jbl logo" />
         </div>
       </div>
     </Wrapper>

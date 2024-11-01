@@ -1,5 +1,5 @@
 import React from "react";
-import Wrapper from "./Wrapper";
+import Wrapper from "./common/Wrapper";
 import { TbTruckDelivery } from "react-icons/tb";
 import { RiCustomerService2Line } from "react-icons/ri";
 import { PiMoneyWavy } from "react-icons/pi";
@@ -8,17 +8,17 @@ const serviceList = [
   {
     title: "FREE AND FAST DELIVERY",
     description: "Free delivery for all order over $140",
-    icon : TbTruckDelivery
+    icon: TbTruckDelivery,
   },
   {
     title: "24/7 CUSTOMER SERVICE",
     description: "Friendly 24/7 customer support",
-    icon : RiCustomerService2Line
+    icon: RiCustomerService2Line,
   },
   {
     title: "MONEY BACK GUARANTEE",
     description: "We return money within 30 days",
-    icon : PiMoneyWavy
+    icon: PiMoneyWavy,
   },
 ];
 const Servicefeatures = () => {
@@ -36,12 +36,8 @@ const Servicefeatures = () => {
                   <item.icon className="text-white text-[35px]" />
                 </div>
               </div>
-              <p className="text-[20px] font-semibold">
-                {item.title}
-              </p>
-              <p className="text-[14px]">
-                {item.description}
-              </p>
+              <p className="text-[20px] font-semibold">{item.title}</p>
+              <p className="text-[14px]">{item.description}</p>
             </div>
           );
         })}

@@ -1,9 +1,9 @@
 import React from "react";
-import Heading from "./Heading";
-import Arrow from "./common/Arrow";
-import Wrapper from "./Wrapper";
-import Itemcard from "./Itemcard";
-import Orangebutton from "./common/Orangebutton";
+import Heading from "../../Heading";
+import Arrow from "../../common/Arrow";
+import Wrapper from "../../common/Wrapper";
+import Itemcard from "../../Itemcard";
+import Orangebutton from "../../common/Orangebutton";
 
 const Flashsale = ({ className }) => {
   return (

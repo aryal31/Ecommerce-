@@ -1,5 +1,4 @@
-import Orangebutton from "./common/Orangebutton";
-
+import Orangebutton from "../../common/Orangebutton";
 const CartTotalbox = () => {
   return (
     <div className="border-[1.5px] border-black rounded-md flex flex-col w-[400px] md:w-[470px] md:h-[324px] p-5">
