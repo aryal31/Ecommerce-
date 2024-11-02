@@ -3,6 +3,11 @@ import controller from "../assets/images/controller.png";
 import rating from "../assets/images/rating.png";
 import { IoEyeOutline } from "react-icons/io5";
 import { FaRegHeart } from "react-icons/fa";
+import Reviewstar from './features/product/Reviewstar';
+
+
+
+
 
 const Itemcard = () => {
 
@@ -33,7 +38,8 @@ const Itemcard = () => {
           <span className="line-through ml-4 text-[#808080]">$140</span>
         </div>
         <div className="flex items-center">
-          <img src={rating} alt="rating" className="w-[80px]" />{" "}
+          {/* <img src={rating} alt="rating" className="w-[80px]" />{" "} */}
+          <Reviewstar></Reviewstar>
           <span className="ml-1 text-[#808080]">(20)</span>{" "}
         </div>
       </div>
