@@ -1,9 +1,8 @@
 import React from "react";
 import Itemcardinwishlist from "../components/Itemcardinwishlist";
 import ItemCardinWishlistSuggestion from "../components/ItemCardinWishlistSuggestion";
-import Heading from "../components/Heading";
+import Heading from "../components/common/Heading";
 import Buttonwithoutline from "../components/common/Buttonwithoutline";
-ItemCardinWishlistSuggestion;
 
 const Wishlistpage = () => {
   return (

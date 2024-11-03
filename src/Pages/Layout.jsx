@@ -3,8 +3,7 @@ import Top from "../components/Top";
 import Navbar from '../components/Layout/Navbar'
 import Footer from "../components/Layout/Footer";
 import { Outlet } from "react-router-dom";
-
-import Smallnavbar from "../components/Smallnavbar";
+import Smallnavbar from "../components/Layout/Smallnavbar";
 
 const Layout = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);

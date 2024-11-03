@@ -3,13 +3,12 @@ import { CiSearch } from "react-icons/ci";
 import { CiHeart, CiShoppingCart, CiUser } from "react-icons/ci";
 import { Link } from "react-router-dom";
 import { RxHamburgerMenu } from "react-icons/rx";
-import Usermenu from "./Usermenu";
-import Searchpopup from "./Searchpopup";
-import Sidebar from "./Sidebar";
+import Usermenu from "../Usermenu";
+import Searchpopup from "../Searchpopup";
+import Sidebar from "../Layout/Sidebar"
 
 const Smallnavbar = () => {
   const [searchOpen, setSearchOpen] = useState(false);
-
   const [userclicked, setuserclicked] = useState(false);
   const dropdownRef = useRef(null);
 
@@ -64,7 +63,7 @@ const Smallnavbar = () => {
       {sidebarOpen && (
         <Sidebar onClose={toggleSidebarOpen} isOpen={sidebarOpen} />
       )}
-      {searchOpen && <Searchpopup onClose={()=>setSearchOpen(!searchOpen)}/>}
+      {searchOpen && <Searchpopup onClose={() => setSearchOpen(!searchOpen)} />}
     </div>
   );
 };

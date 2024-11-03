@@ -1,12 +1,8 @@
 import React from "react";
-import controller from "../assets/images/controller.png";
-import rating from "../assets/images/rating.png";
+import controller from '../../../assets/images/controller.png'
 import { IoEyeOutline } from "react-icons/io5";
 import { FaRegHeart } from "react-icons/fa";
-import Reviewstar from './features/product/Reviewstar';
-
-
-
+import Reviewstar from './Reviewstar';
 
 
 const Itemcard = () => {
