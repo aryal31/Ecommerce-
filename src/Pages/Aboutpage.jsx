@@ -1,19 +1,17 @@
 import React from "react";
-import Servicefeatures from "../components/Servicefeatures";
-import aboutimg from "../assets/images/aboutimg.png";
-import Salesdisplay from "../components/Salesdisplay";
+import Servicefeatures from "../components/features/home/Servicefeatures";
+import { aboutimg } from "../assets/images";
+import Salesdisplay from "../components/features/about/Salesdisplay";
 
-import Employeedetails from "../components/Employeedetails";
+import Employeedetails from "../components/features/about/Employeedetails";
 
 const Aboutpage = () => {
   const aboutText = `
               Launced in 2015, Exclusive is South Asia's premier online shopping
-              makterplace with an active presense in Bangladesh. Supported by
+              makterplace with an active presense in Nepal. Supported by
               wide range of tailored marketing, data and service solutions,
               Exclusive has 10,500 sallers and 300 brands and serves 3 millioons
               customers across the region.`;
-  
-  const imginabout = aboutimg;
 
   return (
     <div>
@@ -30,7 +28,7 @@ const Aboutpage = () => {
           </div>
           <div className="h-[609px] w-[837] object-contain">
             <img
-              src={imginabout}
+              src={aboutimg}
               alt=""
               className="max-h-[600px] w-auto h-auto"
             />

@@ -1,5 +1,4 @@
-import controller from "../assets/images/controller.png";
-import rating from "../assets/images/rating.png";
+import { controller } from "../../../assets/images";
 import { IoEyeOutline } from "react-icons/io5";
 import { MdOutlineShoppingCart } from "react-icons/md";
 

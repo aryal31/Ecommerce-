@@ -1,17 +1,16 @@
 import React, { useState } from "react";
-import controllerview1 from "../assets/images/controllerview1.png";
-import controllerview2 from "../assets/images/controllerview2.png";
-import controllerview3 from "../assets/images/controllerview3.png";
-import controllerview4 from "../assets/images/controllerview4.png";
-
-import controller from "../assets/images/controller.png";
-import Orangebutton from "./common/Orangebutton";
-import rating from "../assets/images/rating.png";
+import controllerview1 from "../../../assets/images/controllerview1.png";
+import controllerview2 from "../../../assets/images/controllerview2.png";
+import controllerview3 from "../../../assets/images/controllerview3.png";
+import controllerview4 from "../../../assets/images/controllerview4.png";
+import controller from "../../../assets/images/controller.png";
+import Orangebutton from "../../common/Orangebutton";
+import rating from "../../../assets/images/rating.png";
 import { TbTruckDelivery } from "react-icons/tb";
 import { MdLoop } from "react-icons/md";
-import Size from "./Size";
+import Size from '../../Size';
 import { CiHeart } from "react-icons/ci";
-import Itemsincrementer from "./Itemsincrementer";
+import Itemsincrementer from '../../Itemsincrementer'
 
 const ProductView = () => {
   const [colorOptionClicked, setColorOptionClicked] = useState("");

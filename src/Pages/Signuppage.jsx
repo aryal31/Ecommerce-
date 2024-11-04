@@ -1,16 +1,16 @@
-import React from 'react'
+import React from "react";
 
-import Loginsignupbox from '../components/features/loginandsignup/Loginsignupbox.jsx'
-import Signupbox from '../components/Signupbox.jsx'
+import Loginsignupbox from "../components/features/loginandsignup/Loginsignupbox.jsx";
+import Signupbox from "../components/features/loginandsignup/Signupbox.jsx";
 
 const Signuppage = () => {
   return (
-    <div className=''>
+    <div className="">
       <Loginsignupbox>
         <Signupbox></Signupbox>
       </Loginsignupbox>
     </div>
-  )
-}
+  );
+};
 
-export default Signuppage
+export default Signuppage;

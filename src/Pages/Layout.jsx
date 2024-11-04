@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Top from "../components/Top";
+import Top from "../components/common/Top";
 import Navbar from '../components/Layout/Navbar'
 import Footer from "../components/Layout/Footer";
 import { Outlet } from "react-router-dom";

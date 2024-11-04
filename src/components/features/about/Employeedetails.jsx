@@ -1,7 +1,5 @@
 import React from "react";
-import person1 from "../assets/images/person1.png";
-import person2 from "../assets/images/person2.png";
-import person3 from "../assets/images/person3.png";
+import { person1, person2, person3 } from "../../../assets/images";
 import { CiInstagram, CiLinkedin, CiTwitter } from "react-icons/ci";
 
 const employeedetails = [

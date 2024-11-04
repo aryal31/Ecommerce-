@@ -1,9 +1,9 @@
 import React from "react";
-import Heading from "./common/Heading";
-import Arrow from "./common/Arrow";
-import Wrapper from "./common/Wrapper";
-import Orangebutton from "./common/Orangebutton";
-import Itemcard from "./features/product/Itemcard";
+import Heading from "../../common/Heading";
+import Arrow from "../../common/Arrow";
+import Wrapper from "../../common/Wrapper";
+import Orangebutton from "../../common/Orangebutton";
+import Itemcard from "../product/Itemcard";
 
 const Ourproducts = () => {
   return (

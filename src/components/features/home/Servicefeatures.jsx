@@ -1,5 +1,5 @@
 import React from "react";
-import Wrapper from "./common/Wrapper";
+import Wrapper from "../../common/Wrapper";
 import { TbTruckDelivery } from "react-icons/tb";
 import { RiCustomerService2Line } from "react-icons/ri";
 import { PiMoneyWavy } from "react-icons/pi";
