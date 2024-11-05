@@ -12,7 +12,7 @@ const Itemsincrementer = () => {
   return (
     <div className="items-center justify-center flex h-[44px] w-[159px] border-[1px] border-[#808080] rounded-md">
       <div
-        className="w-[40px] h-[44px] items-center justify-center text-[30px] flex cursor-pointer hover:bg-[#db4444] hover:border-none"
+        className="w-[40px] h-[44px] items-center justify-center text-[30px] flex cursor-pointer hover:bg-[#db4444] hover:border-none rounded-l-md hover:text-white"
         onClick={handleDecrement}
       >
         -
@@ -21,7 +21,7 @@ const Itemsincrementer = () => {
         {count}
       </div>
       <div
-        className="w-[40px] h-[44px] flex items-center justify-center text-[30px] cursor-pointer hover:bg-[#db4444] hover:border-none"
+        className="w-[40px] h-[44px] flex items-center justify-center text-[30px] cursor-pointer hover:bg-[#db4444] hover:border-none rounded-r-md hover:text-white"
         onClick={() => {
           setCount(count + 1);
         }}

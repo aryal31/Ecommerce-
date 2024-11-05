@@ -9,7 +9,7 @@ const ProductViewPage = () => {
       <div className="mt-3">
         <ProductView></ProductView>
       </div>
-      <div className="mt-5">
+      <div className="md:mt-5 md:ml-0 ml-[70px]">
         <Heading date="Related Items"></Heading>
         <div className="flex gap-2 flex-wrap">
           <Itemcard />
