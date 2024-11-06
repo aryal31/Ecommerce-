@@ -1,18 +1,10 @@
 import React from "react";
 import Wrapper from "../../common/Wrapper";
 import Carouselh from "./Carouselh";
-import img2 from '../../../assets/images/img2.png'
-import img3 from '../../../assets/images/img3.png'
-import img4 from '../../../assets/images/img4.png'
-import img5 from '../../../assets/images/img5.png'
-
-
-// const Options = () => {
-//   let slides = [
-//     landscape,
-//     lake,
-//     img2,
-//   ]
+import img2 from "../../../assets/images/img2.png";
+import img3 from "../../../assets/images/img3.png";
+import img4 from "../../../assets/images/img4.png";
+import img5 from "../../../assets/images/img5.png";
 
 const Options = () => {
   let slides = [img2, img3, img4, img5];
