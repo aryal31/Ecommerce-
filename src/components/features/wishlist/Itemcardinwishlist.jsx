@@ -1,6 +1,7 @@
 import { controller } from "../../../assets/images";
 import { IoEyeOutline } from "react-icons/io5";
 import { MdOutlineShoppingCart } from "react-icons/md";
+import Reviewstar from '../product/Reviewstar';
 
 const Itemcardinwishlist = () => {
   return (
@@ -28,7 +29,8 @@ const Itemcardinwishlist = () => {
         <span className="line-through ml-4 text-[#808080]">$140</span>
       </div>
       <div className="flex items-center">
-        <img src={rating} alt="rating" className="w-[80px]" />
+        <Reviewstar></Reviewstar>
+        {/* <img src={rating} alt="rating" className="w-[80px]" /> */}
         <span className="ml-1 text-[#808080]">(10)</span>
       </div>
     </div>
