@@ -12,13 +12,13 @@ const Itemcardinwishlist = () => {
           </div>
           <div className="absolute ml-[230px] mt-1">
             <div className="bg-white rounded-2xl h-[34px] w-[34px] flex items-center justify-center">
-              <IoEyeOutline/>
+              <IoEyeOutline />
             </div>
           </div>
         </div>
         <img src={controller} alt="" />
         <button className="bg-black text-white absolute bottom-[100px] left-0 h-12 w-full flex items-center justify-center gap-2">
-        <MdOutlineShoppingCart />
+          <MdOutlineShoppingCart />
           Add To Cart
         </button>
       </div>

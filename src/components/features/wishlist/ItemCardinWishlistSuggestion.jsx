@@ -2,7 +2,6 @@ import { controller } from "../../../assets/images";
 import { HiOutlineTrash } from "react-icons/hi2";
 import { MdOutlineShoppingCart } from "react-icons/md";
 
-
 const ItemCardinWishlistSuggestion = () => {
   return (
     <div className="h-[350px] w-[270px] flex flex-col relative group">
@@ -19,7 +18,7 @@ const ItemCardinWishlistSuggestion = () => {
         </div>
         <img src={controller} alt="" />
         <button className="bg-black text-white absolute bottom-[100px] left-0 h-12 w-full flex items-center justify-center gap-2">
-        <MdOutlineShoppingCart />
+          <MdOutlineShoppingCart />
           Add To Cart
         </button>
       </div>
@@ -29,7 +28,7 @@ const ItemCardinWishlistSuggestion = () => {
         <span className="line-through ml-4 text-[#808080]">$140</span>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default ItemCardinWishlistSuggestion
+export default ItemCardinWishlistSuggestion;

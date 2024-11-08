@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { RxHamburgerMenu } from "react-icons/rx";
 import Usermenu from "../Usermenu";
 import Searchpopup from "../Searchpopup";
-import Sidebar from "../Layout/Sidebar"
+import Sidebar from "../Layout/Sidebar";
 
 const Smallnavbar = () => {
   const [searchOpen, setSearchOpen] = useState(false);

@@ -1,5 +1,5 @@
-import googleplay from "../../assets/images/googleplay.png"
-import appstore from "../../assets/images/appstore.png"
+import googleplay from "../../assets/images/googleplay.png";
+import appstore from "../../assets/images/appstore.png";
 import qrcode from "../../assets/images/qrcode.png";
 import { FaFacebookF } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
@@ -11,7 +11,7 @@ import Imagebox from "../Imagebox";
 const Footer = () => {
   return (
     <>
-    {/* // foot is not yet dynamic. wokring on it */}
+      {/* // foot is not yet dynamic. wokring on it */}
       <div className="flex flex-col bg-black  items-center whitespace-nowrap mt-4">
         <div className="flex flex-wrap justify-between px-5  lg:px-[100px] 2xl:px-[135px] text-white pt-[80px] gap-[20px]">
           <div className="flex flex-col ">

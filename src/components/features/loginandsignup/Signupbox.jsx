@@ -40,9 +40,11 @@ const Signupbox = () => {
       </div>
       <div className="gap-3 flex opacity-70 text-[16px] items-center justify-center">
         <span className="">Already have account?</span>
-        <span className="font-semibold underline underline-offset-[6px]"><Link to='/login'>Log in</Link></span>
+        <span className="font-semibold underline underline-offset-[6px]">
+          <Link to="/login">Log in</Link>
+        </span>
       </div>
-    </div>       
+    </div>
   );
 };
 

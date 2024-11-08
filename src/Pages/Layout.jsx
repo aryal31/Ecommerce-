@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Top from "../components/common/Top";
-import Navbar from '../components/Layout/Navbar'
+import Navbar from "../components/Layout/Navbar";
 import Footer from "../components/Layout/Footer";
 import { Outlet } from "react-router-dom";
 import Smallnavbar from "../components/Layout/Smallnavbar";

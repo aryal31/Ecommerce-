@@ -10,8 +10,13 @@ const CheckOutPage = () => {
     <div>
       <div className="flex items-center justify-center gap-[173px] flex-wrap">
         <div className="flex flex-col">
-          <div className="md:mb-[48px] md:text-[36px] text-[20px]">Billing Detail</div>
-          <label htmlFor="name" className="text-[black] opacity-40 md:text-[16px] text-[14px]">
+          <div className="md:mb-[48px] md:text-[36px] text-[20px]">
+            Billing Detail
+          </div>
+          <label
+            htmlFor="name"
+            className="text-[black] opacity-40 md:text-[16px] text-[14px]"
+          >
             First Name<sup className="text-red-900">*</sup>
           </label>
           <input

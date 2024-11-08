@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import { ChevronUp, ChevronDown } from 'lucide-react';
+import { ChevronUp, ChevronDown } from "lucide-react";
 
 const Quantitycounter = () => {
   // Use string state instead of number
-  const [count, setCount] = useState('1');
+  const [count, setCount] = useState("1");
 
   const handleIncrement = () => {
     setCount(String(parseInt(count) + 1));
@@ -32,16 +32,16 @@ const Quantitycounter = () => {
           onClick={handleIncrement}
         />
         <div className="text-[10px] md:text-[16px] flex justify-center">
-          <input 
-            type="number" 
+          <input
+            type="number"
             value={count}
             onChange={handleInputChange}
             className="w-[50px] h-8 outline-none text-center"
             min="0"
-            style={{ 
-              MozAppearance: 'textfield',
-              WebkitAppearance: 'textfield',
-              appearance: 'textfield'
+            style={{
+              MozAppearance: "textfield",
+              WebkitAppearance: "textfield",
+              appearance: "textfield",
             }}
           />
         </div>
