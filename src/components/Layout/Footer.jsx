@@ -1,5 +1,5 @@
-import googleplay from "../../assets/images/googleplay.png"
-import appstore from "../../assets/images/appstore.png"
+import googleplay from "../../assets/images/googleplay.png";
+import appstore from "../../assets/images/appstore.png";
 import qrcode from "../../assets/images/qrcode.png";
 import { FaFacebookF } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
@@ -7,11 +7,12 @@ import { FaInstagram } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
 import { HiArrowRight } from "react-icons/hi2";
 import Imagebox from "../Imagebox";
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
     <>
-    {/* // foot is not yet dynamic. wokring on it */}
+      {/* // foot is not yet dynamic. wokring on it */}
       <div className="flex flex-col bg-black  items-center whitespace-nowrap mt-4">
         <div className="flex flex-wrap justify-between px-5  lg:px-[100px] 2xl:px-[135px] text-white pt-[80px] gap-[20px]">
           <div className="flex flex-col ">
@@ -40,14 +41,22 @@ const Footer = () => {
           </div>
           <div>
             <ul className="text-[20px] mb-[24px]">Account</ul>
-            <ul className="mb-[16px]">My account</ul>
-            <ul className="mb-[16px]">Login/Register</ul>
-            <ul className="mb-[16px]">Cart</ul>
-            <ul className="mb-[16px]">Wishlist</ul>
-            <ul>Shop</ul>
+            <NavLink to="/account">
+              <ul className="mb-[16px]">My account</ul>
+            </NavLink>
+            <NavLink to="/signup">
+              <ul className="mb-[16px]">Login/Register</ul>
+            </NavLink>
+            <NavLink to="cart">
+              <ul className="mb-[16px]">Cart</ul>
+            </NavLink>
+            <NavLink to='/wishlist'>
+              <ul className="mb-[16px]">Wishlist</ul>
+            </NavLink>
+            <NavLink to='/' ><ul>Shop</ul></NavLink>
           </div>
           <div>
-            <ul className="text-[20px] mb-[24px]">Quck Link</ul>
+            <ul className="text-[20px] mb-[24px]">Quick Link</ul>
             <ul className="mb-[16px]">Privcy policy</ul>
             <ul className="mb-[16px]">Terms of use</ul>
             <ul className="mb-[16px]">FAQ</ul>
