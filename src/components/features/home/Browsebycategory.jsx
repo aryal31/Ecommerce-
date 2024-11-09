@@ -41,7 +41,6 @@ const Browsebycategory = () => {
       Icon: LuGamepad,
       path: "/",
     },
-
   ];
 
   return (
@@ -54,10 +53,15 @@ const Browsebycategory = () => {
         {categoryItems.map((item, index) => {
           const IconComponent = item.Icon;
           return (
-            <div className="flex justify-center items-center mt-[60px]" key={index}>
+            <div
+              className="flex justify-center items-center mt-[60px]"
+              key={index}
+            >
               <div className="border-[#b3b3b3b3] border h-[145px] w-[170px] justify-center items-center flex flex-col rounded-[4px] hover:text-white hover:bg-[#db4444] hover:rounded-[4px]">
                 <IconComponent className="text-[50px]" />
-                <p className="capitalize mt-2 text-[16px]">{item.categoryName}</p>
+                <p className="capitalize mt-2 text-[16px]">
+                  {item.categoryName}
+                </p>
               </div>
             </div>
           );

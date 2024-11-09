@@ -9,7 +9,9 @@ const Errorpage = () => {
       <div className="text-[16px] mb-[40px]">
         Your visited page not found. You may go home page.
       </div>
-      <Link to='/'><Orangebutton text={"Back to home page"} /></Link>
+      <Link to="/">
+        <Orangebutton text={"Back to home page"} />
+      </Link>
     </div>
   );
 };

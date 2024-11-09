@@ -8,7 +8,7 @@ import Orangebutton from "../../common/Orangebutton";
 import rating from "../../../assets/images/rating.png";
 import { TbTruckDelivery } from "react-icons/tb";
 import { MdLoop } from "react-icons/md";
-import Size from "../../Size";
+import Size from "./Size";
 import { CiHeart } from "react-icons/ci";
 import Itemsincrementer from "../../Itemsincrementer";
 

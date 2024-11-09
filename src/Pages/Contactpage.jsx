@@ -43,24 +43,30 @@ const Contactpage = () => {
 
       <div className="flex flex-col shadow w-auto max-w-[800px] h-auto px-[32px] py-[40px] flex-wrap">
         <div className="flex flex-row gap-2 mb-[32px] flex-wrap">
-          <div><input
-            type="text"
-            className="w-[235px] h-[50px] bg-[#F5F5F5] pl-5 focus:outline-none"
-            placeholder="Your Name"
-            required
-          /></div>
-          <div><input
-            type="text"
-            className="w-[235px] h-[50px] bg-[#F5F5F5] pl-5 focus:outline-none"
-            placeholder="Your Email"
-            required
-          /></div>
-          <div><input
-            type="text"
-            className="w-[235px] h-[50px] bg-[#F5F5F5] pl-5 focus:outline-none"
-            placeholder="Your Phone"
-            required
-          /></div>
+          <div>
+            <input
+              type="text"
+              className="w-[235px] h-[50px] bg-[#F5F5F5] pl-5 focus:outline-none"
+              placeholder="Your Name"
+              required
+            />
+          </div>
+          <div>
+            <input
+              type="text"
+              className="w-[235px] h-[50px] bg-[#F5F5F5] pl-5 focus:outline-none"
+              placeholder="Your Email"
+              required
+            />
+          </div>
+          <div>
+            <input
+              type="text"
+              className="w-[235px] h-[50px] bg-[#F5F5F5] pl-5 focus:outline-none"
+              placeholder="Your Phone"
+              required
+            />
+          </div>
         </div>
         <div className="w-full">
           <textarea
