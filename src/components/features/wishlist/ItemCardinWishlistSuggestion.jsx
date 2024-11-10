@@ -2,11 +2,6 @@ import { controller } from "../../../assets/images";
 import { HiOutlineTrash } from "react-icons/hi2";
 import { MdOutlineShoppingCart } from "react-icons/md";
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 2f63ca0dee4d6c56e100df1b2f4dc14891f1a724
 const ItemCardinWishlistSuggestion = () => {
   return (
     <div className="h-[350px] w-[270px] flex flex-col relative group">

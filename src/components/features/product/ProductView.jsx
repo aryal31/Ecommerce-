@@ -1,9 +1,11 @@
-import React, { useState } from "react";
-import controllerview1 from "../../../assets/images/controllerview1.png";
-import controllerview2 from "../../../assets/images/controllerview2.png";
-import controllerview3 from "../../../assets/images/controllerview3.png";
-import controllerview4 from "../../../assets/images/controllerview4.png";
-import controller from "../../../assets/images/controller.png";
+import { useState } from "react";
+import {
+  controllerview1,
+  controllerview2,
+  controllerview3,
+  controllerview4,
+  controller,
+} from "../../../assets/images";
 import Orangebutton from "../../common/Orangebutton";
 import rating from "../../../assets/images/rating.png";
 import { TbTruckDelivery } from "react-icons/tb";
@@ -11,6 +13,7 @@ import { MdLoop } from "react-icons/md";
 import Size from "./Size";
 import { CiHeart } from "react-icons/ci";
 import Itemsincrementer from "../../Itemsincrementer";
+import Reviewstar from "./Reviewstar";
 
 const ProductView = () => {
   const [colorOptionClicked, setColorOptionClicked] = useState("");
@@ -40,7 +43,8 @@ const ProductView = () => {
           <div className="flex flex-col w-[400px] h-[600px]">
             <div className="text-[24px] font-semibold">Dual Sense</div>
             <div className="flex items-center text-[14px] my-2">
-              <img src={rating} className="h-[29px]" alt="" />
+              <Reviewstar />
+              {/* <img src={rating} className="h-[29px]" alt="" /> */}
               <span className="text-black opacity-30">(150 Reviews) | </span>
               <span className="text-[#00FF66]">In Stock</span>{" "}
             </div>
