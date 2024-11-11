@@ -24,9 +24,9 @@ const Carouselh = ({ slides }) => {
     return () => clearInterval(interval); // Cleanup on unmount
   }, [current]); // Depend on current to reset interval on manual change
 
-  const handleDotClick= (index)=>{
-    setCurrent(index)
-  }
+  const handleDotClick = (index) => {
+    setCurrent(index);
+  };
 
   return (
     <div className="overflow-hidden relative">
@@ -34,22 +34,29 @@ const Carouselh = ({ slides }) => {
         className={`flex transition ease-out duration-1000`}
         style={{ transform: `translateX(-${current * 100}%)` }}
       >
-        {slides.map((s,i) => {
+        {slides.map((s, i) => {
           return <img key={i} src={s} alt="" className="" />;
         })}
       </div>
       <div className="absolute top-0 h-full w-full justify-between flex items-center text-white px-4 text-3xl">
         <button>
-          <FaArrowCircleLeft onClick={previousSlide} className="opacity-40 hover:opacity-100" />
+          <FaArrowCircleLeft
+            onClick={previousSlide}
+            className="opacity-40 hover:opacity-100"
+          />
         </button>
         <button>
-          <FaArrowCircleRight onClick={nextSlide} className="opacity-40 hover:opacity-100" />
+          <FaArrowCircleRight
+            onClick={nextSlide}
+            className="opacity-40 hover:opacity-100"
+          />
         </button>
       </div>
       <div className="absolute bottom-0 py-4 flex justify-center gap-4 w-full">
         {slides.map((s, i) => {
           return (
-            <div onClick={()=>handleDotClick(i)}
+            <div
+              onClick={() => handleDotClick(i)}
               key={i}
               className={`rounded-full h-4 w-4 flex items-center justify-center ${
                 i == current ? "bg-white" : "bg-gray-400"

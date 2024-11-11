@@ -49,12 +49,12 @@ const Browsebycategory = () => {
         <Heading date="categories" title="Browse By Categories" />
         <Arrow />
       </div>
-      <div className="flex justify-center items-center mt-[10px] space-x-[22px] flex-wrap">
+      <div className="flex justify-center items-center space-x-[22px] flex-wrap ">
         {categoryItems.map((item, index) => {
           const IconComponent = item.Icon;
           return (
             <div
-              className="flex justify-center items-center mt-[60px]"
+              className="flex justify-center items-center mt-[30px]"
               key={index}
             >
               <div className="border-[#b3b3b3b3] border h-[145px] w-[170px] justify-center items-center flex flex-col rounded-[4px] hover:text-white hover:bg-[#db4444] hover:rounded-[4px]">

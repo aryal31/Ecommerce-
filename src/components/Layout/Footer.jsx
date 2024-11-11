@@ -50,10 +50,12 @@ const Footer = () => {
             <NavLink to="cart">
               <ul className="mb-[16px]">Cart</ul>
             </NavLink>
-            <NavLink to='/wishlist'>
+            <NavLink to="/wishlist">
               <ul className="mb-[16px]">Wishlist</ul>
             </NavLink>
-            <NavLink to='/' ><ul>Shop</ul></NavLink>
+            <NavLink to="/">
+              <ul>Shop</ul>
+            </NavLink>
           </div>
           <div>
             <ul className="text-[20px] mb-[24px]">Quick Link</ul>
