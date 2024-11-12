@@ -1,6 +1,4 @@
-import googleplay from "../../assets/images/googleplay.png";
-import appstore from "../../assets/images/appstore.png";
-import qrcode from "../../assets/images/qrcode.png";
+import { googleplay, appstore, qrcode } from "../../assets/images";
 import { FaFacebookF } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa6";

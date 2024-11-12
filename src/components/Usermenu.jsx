@@ -1,9 +1,8 @@
 import React, { useEffect, useState, useRef } from "react";
-import { CiHeart, CiShoppingCart, CiUser } from "react-icons/ci";
+import { CiUser, CiLogout } from "react-icons/ci";
 import { FiShoppingBag } from "react-icons/fi";
 import { MdOutlineCancel } from "react-icons/md";
 import { FaRegStar } from "react-icons/fa";
-import { CiLogout } from "react-icons/ci";
 import { Link } from "react-router-dom";
 
 const Usermenu = () => {

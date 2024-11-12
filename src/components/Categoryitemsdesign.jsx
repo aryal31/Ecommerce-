@@ -1,6 +1,6 @@
 import React from "react";
 
-const Categoryitemsdesign = ({ device, IconComponent, categroyItems }) => {
+const Categoryitemsdesign = ({ device, IconComponent }) => {
   return (
     <>
       {/* <div className="flex justify-center items-center mt-[60px]">
