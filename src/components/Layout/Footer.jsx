@@ -1,11 +1,7 @@
 import googleplay from "../../assets/images/googleplay.png";
 import appstore from "../../assets/images/appstore.png";
 import qrcode from "../../assets/images/qrcode.png";
-import { FaFacebookF } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
-import { FaInstagram } from "react-icons/fa6";
-import { FaLinkedinIn } from "react-icons/fa";
-import { HiArrowRight } from "react-icons/hi2";
+import { FaFacebookF,FaXTwitter,FaInstagram, FaLinkedinIn,HiArrowRight } from "react-icons/fa";
 import Imagebox from "../Imagebox";
 import { NavLink } from "react-router-dom";
 
@@ -26,7 +22,7 @@ const Footer = () => {
                 placeholder="Enter your email"
               />
 
-              <HiArrowRight className="text-[30px]" />
+              <HiArrowRight className="text-[30px] cursor-pointer" />
             </div>
           </div>
           <div>

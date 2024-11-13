@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 import { CiSearch } from "react-icons/ci";
-import { CiHeart, CiShoppingCart, CiUser } from "react-icons/ci";
+import { CiHeart, CiShoppingCart } from "react-icons/ci";
 import { Link } from "react-router-dom";
 import { RxHamburgerMenu } from "react-icons/rx";
 import Usermenu from "../Usermenu";
