@@ -1,9 +1,6 @@
 import React from "react";
 import Orangebutton from "../components/common/Orangebutton";
-import controller from "../assets/images/controller.png";
-import visa from "../assets/images/visa.png";
-import mastercard from "../assets/images/mastercard.png";
-import paypal from "../assets/images/paypal.png";
+import { controller, visa, mastercard, paypal } from "../assets/images";
 
 const CheckOutPage = () => {
   return (

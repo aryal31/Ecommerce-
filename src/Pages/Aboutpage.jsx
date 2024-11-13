@@ -2,7 +2,6 @@ import React from "react";
 import Servicefeatures from "../components/features/home/Servicefeatures";
 import { aboutimg } from "../assets/images";
 import Salesdisplay from "../components/features/about/Salesdisplay";
-
 import Employeedetails from "../components/features/about/Employeedetails";
 
 const Aboutpage = () => {
