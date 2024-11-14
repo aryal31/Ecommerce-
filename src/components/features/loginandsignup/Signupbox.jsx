@@ -1,6 +1,7 @@
 import React from "react";
 import { FaGoogle } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import Orangebutton from '../../common/Orangebutton'
 
 const Signupbox = () => {
   return (
@@ -30,9 +31,8 @@ const Signupbox = () => {
           placeholder="Password"
         />
         <div className="flex items-center mt-[40px] flex-col gap-4">
-          <button className="bg-[#db4444] text-white rounded-sm h-[56px] w-full">
-            Create Account
-          </button>
+        <Orangebutton className='h-[56px] w-full' text='Create Account' />
+
           <button className=" text-black rounded-sm h-[56px] w-full border-[#D9D9D9D9] border-[1.5px] flex items-center justify-center gap-2">
             <FaGoogle /> Sign Up With Google
           </button>

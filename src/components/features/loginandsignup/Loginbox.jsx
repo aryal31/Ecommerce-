@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Orangebutton from "../../common/Orangebutton";
 
 const Loginbox = () => {
   return (
@@ -22,9 +23,8 @@ const Loginbox = () => {
         placeholder="Password"
       />
       <div className="flex justify-between items-center mt-[40px]">
-        <button className="bg-[#db4444] text-white rounded-sm h-[56px] w-[146px]">
-          login
-        </button>
+     <Orangebutton className=' rounded-sm h-[56px] w-[146px]' text='Login' />
+
         <span className="text-[#db4444]">forgot Password?</span>
       </div>
       <div className="gap-3 flex opacity-70 text-[16px] items-center justify-center">

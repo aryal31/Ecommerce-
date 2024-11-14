@@ -12,7 +12,7 @@ import { NavLink } from "react-router-dom";
 const Footer = () => {
   return (
     <>
-      {/* // foot is not yet dynamic. working on it */}
+  
       <div className="flex flex-col bg-black items-center whitespace-nowrap mt-4">
         <div className="flex flex-wrap justify-between px-5 lg:px-[100px] 2xl:px-[135px] text-white pt-[80px] gap-[20px]">
           <div className="flex flex-col ">
@@ -85,7 +85,7 @@ const Footer = () => {
 
         <div className="h-[1px] w-full bg-gray-400 mt-[60px] mb-[16px]"></div>
         <div className="text-center text-gray-400 mb-[24px]">
-          Designed and developed by Lunico &copy; 2024.
+          Designed and developed by ABC
         </div>
       </div>
     </>
