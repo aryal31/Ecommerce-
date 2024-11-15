@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 const Itemsincrementer = () => {
   const [count, setCount] = useState(0);
   const handleDecrement = () => {

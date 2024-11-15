@@ -7,7 +7,6 @@ import {
   controller,
 } from "../../../assets/images";
 import Orangebutton from "../../common/Orangebutton";
-import rating from "../../../assets/images/rating.png";
 import { TbTruckDelivery } from "react-icons/tb";
 import { MdLoop } from "react-icons/md";
 import Size from "./Size";
