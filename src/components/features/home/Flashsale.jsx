@@ -21,7 +21,7 @@ const Flashsale = ({ className }) => {
             <Itemcard />
           </div>
           <div>
-            <Orangebutton text="View all products" />
+            <Orangebutton text="View all products" className='h-[50px] w-[200px]' />
           </div>
         </div>
       </Wrapper>

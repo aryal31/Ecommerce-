@@ -13,7 +13,7 @@ const Ourproducts = () => {
           <Heading date="Our products" title="explore our products" />
           <Arrow />
         </div>
-        <div className="flex gap-4 mt-3 flex-wrap items-center justify-center">
+        <div className="flex gap-4 mt-3 flex-wrap">
           <Itemcard></Itemcard>
           <Itemcard></Itemcard>
           <Itemcard></Itemcard>
@@ -21,7 +21,7 @@ const Ourproducts = () => {
         </div>
 
         <div className="flex items-center justify-center pt-2">
-          <Orangebutton text="View all products" />
+        <Orangebutton text="View all products" className='h-[50px] w-[200px]' />
         </div>
       </Wrapper>
     </>
