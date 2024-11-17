@@ -1,5 +1,3 @@
-import React from "react";
-
 const Orangebutton = ({text,className}) => {
   return (
         //this button can be costomized as per the need( text property defines what text is to be written in the button. it can be passed as prop for some reason margin and padding does not change)

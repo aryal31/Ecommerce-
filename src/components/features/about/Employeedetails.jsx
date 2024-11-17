@@ -1,4 +1,3 @@
-import React from "react";
 import { person1, person2, person3 } from "../../../assets/images";
 import { CiInstagram, CiLinkedin, CiTwitter } from "react-icons/ci";
 

@@ -1,6 +1,4 @@
-
-// you can cange the elements in header as much as you want ( you can change the date and title and the color of the text as well.)
-const Heading = ({ date = "", title = "", textClr = "text-[#DB4444]" }) => {
+const Heading = ({ date = "", title = "", textClr = "text-[#DB4444], className" }) => {
   return (
     <div className="">
       <div className="flex items-center">
