@@ -1,5 +1,4 @@
-import React from "react";
-import controller from "../../../assets/images/controller.png";
+import {controller} from '../../../assets/images'
 import { IoEyeOutline } from "react-icons/io5";
 import { FaRegHeart } from "react-icons/fa";
 import Reviewstar from "./Reviewstar";

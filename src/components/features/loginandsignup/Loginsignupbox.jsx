@@ -1,4 +1,3 @@
-import React from "react";
 import { loginimg } from "../../../assets/images";
 
 const Loginsignupbox = ({ children }) => {

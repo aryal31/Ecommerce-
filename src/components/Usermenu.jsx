@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from "react";
+import { useEffect, useState, useRef } from "react";
 import { CiUser, CiLogout } from "react-icons/ci";
 import { FiShoppingBag } from "react-icons/fi";
 import { MdOutlineCancel } from "react-icons/md";
