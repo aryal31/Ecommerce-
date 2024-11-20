@@ -1,4 +1,3 @@
-import React from "react";
 import Orangebutton from "../components/common/Orangebutton";
 import { controller, visa, mastercard, paypal } from "../assets/images";
 

@@ -1,4 +1,3 @@
-import React from "react";
 import ProductView from "../components/features/product/ProductView";
 import Heading from "../components/common/Heading";
 import Itemcard from "../components/features/product/Itemcard";

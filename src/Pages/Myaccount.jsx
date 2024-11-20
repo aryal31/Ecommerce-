@@ -1,4 +1,3 @@
-import React from "react";
 import Orangebutton from "../components/common/Orangebutton";
 const Myaccount = () => {
   return (

@@ -1,4 +1,3 @@
-import React from "react";
 import Flashsale from "../components/features/home/Flashsale";
 import Line from "../components/common/Line";
 import Options from "../components/features/home/Hero";

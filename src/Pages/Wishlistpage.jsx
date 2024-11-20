@@ -1,4 +1,3 @@
-import React from "react";
 import Itemcardinwishlist from "../components/features/wishlist/Itemcardinwishlist";
 import ItemCardinWishlistSuggestion from "../components/features/wishlist/ItemCardinWishlistSuggestion";
 import Heading from "../components/common/Heading";

@@ -1,4 +1,3 @@
-import React from "react";
 import { IoCallOutline } from "react-icons/io5";
 import { CiMail } from "react-icons/ci";
 import Orangebutton from "../components/common/Orangebutton";
