@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import { CiShop, CiDollar } from "react-icons/ci";
 import { FiShoppingBag } from "react-icons/fi";
 import { FaSackDollar } from "react-icons/fa6";

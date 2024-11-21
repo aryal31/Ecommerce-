@@ -16,6 +16,8 @@ const Wishlistpage = () => {
             <ItemCardinWishlistSuggestion />
             <ItemCardinWishlistSuggestion />
             <ItemCardinWishlistSuggestion />
+            <ItemCardinWishlistSuggestion />
+
           </div>
           <div>
             <div className="flex justify-between items-center">

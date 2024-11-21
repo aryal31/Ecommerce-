@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import  { useState, useRef, useEffect } from "react";
 import { SlArrowDown } from "react-icons/sl";
 
 const Top = () => {
@@ -30,36 +30,35 @@ const Top = () => {
       </div>
       <div className="flex items-center justify-end md:justify-center relative">
         <p>English</p>
-      <SlArrowDown
-        onClick={() => toggledropdownopen()}
-        className="ml-[8px] text-[16px] cursor-pointer"
-      />
- {isdropdownopen && (
-        <div
-          ref={dropdownRef}
-          className=" absolute top-[30px] right-0 bg-black h-auto w-[95px] text-center pr-2 z-50"
-        >
-          <ul>
-            <li className="px-4 py-2 cursor-pointer hover:bg-gray-700">
-              English
-            </li>
-            <li className="px-4 py-2 cursor-pointer hover:bg-gray-700">
-              Spanish
-            </li>
-            <li className="px-4 py-2 cursor-pointer hover:bg-gray-700">
-              French
-            </li>
-            <li className="px-4 py-2 cursor-pointer hover:bg-gray-700">
-              German
-            </li>
-            <li className="px-4 py-2 cursor-pointer hover:bg-gray-700">
-              Chinese
-            </li>
-          </ul>
-        </div>
-      )}
+        <SlArrowDown
+          onClick={() => toggledropdownopen()}
+          className="ml-[8px] text-[16px] cursor-pointer"
+        />
+        {isdropdownopen && (
+          <div
+            ref={dropdownRef}
+            className=" absolute top-[30px] right-0 bg-black h-auto w-[95px] text-center pr-2 z-50"
+          >
+            <ul>
+              <li className="px-4 py-2 cursor-pointer hover:bg-gray-700">
+                English
+              </li>
+              <li className="px-4 py-2 cursor-pointer hover:bg-gray-700">
+                Spanish
+              </li>
+              <li className="px-4 py-2 cursor-pointer hover:bg-gray-700">
+                French
+              </li>
+              <li className="px-4 py-2 cursor-pointer hover:bg-gray-700">
+                German
+              </li>
+              <li className="px-4 py-2 cursor-pointer hover:bg-gray-700">
+                Chinese
+              </li>
+            </ul>
+          </div>
+        )}
       </div>
-     
     </div>
   );
 };
