@@ -1,4 +1,4 @@
-const Heading = ({ date, title, textClr = "text-[#DB4444], className" }) => {
+const Heading = ({ date='', title='', textClr = "text-[#DB4444], className" }) => {
   return (
     <div className="">
       <div className="flex items-center">
