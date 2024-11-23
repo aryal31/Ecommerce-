@@ -19,7 +19,7 @@ const sizes = [
 ];
 
 const Size = () => {
-  const [isSlected, setIsSeleceted] = useState("");
+  const [isSlected, setIsSeleceted] = useState("XS");
   return (
     <div className="flex gap-3">
       {sizes.map((item, index) => {

@@ -15,9 +15,9 @@ import Itemsincrementer from "../../Itemsincrementer";
 import Reviewstar from "./Reviewstar";
 
 const ProductView = () => {
-  const [colorOptionClicked, setColorOptionClicked] = useState("");
+  const [colorOptionClicked, setColorOptionClicked] = useState("first");
   return (
-    <div className="flex items-center justify-center">
+    <div className="flex items-center justify-center md:p-0 p-3">
       <div className="flex items-center justify-center">
         <div className="flex gap-[30px] flex-wrap">
           <div className="md:flex flex-col gap-4 hidden">

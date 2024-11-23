@@ -40,7 +40,7 @@ const Usermenu = () => {
       {userclicked && (
         <div
           ref={dropdownRef}
-          className="absolute top-[100%] right-0 bg-[#7d7d7d] text-white bg-opacity-70 backdrop-blur-lg rounded-lg mt-2"
+          className="absolute top-[100%] right-0 bg-[#7d7d7d] text-white bg-opacity-70 backdrop-blur-lg rounded-lg mt-1 w-[230px]"
         >
           <ul className="flex flex-col">
             <Link
@@ -51,7 +51,7 @@ const Usermenu = () => {
               <p className="text-[25px]">
                 <CiUser />
               </p>
-              <p>Manage My Account</p>
+              <p className="text-nowrap">Manage My Account</p>
             </Link>
             <li className="cursor-pointer hover:bg-[#7d7d7d] p-2 flex justify-start items-center gap-x-3">
               <p className="text-[25px]">
