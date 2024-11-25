@@ -3,6 +3,7 @@ import Arrow from "../../common/Arrow";
 import Wrapper from "../../common/Wrapper";
 import Itemcard from "../product/Itemcard";
 import Orangebutton from "../../common/Orangebutton";
+import CountdownTimer from "../../Timer";
 
 const Flashsale = ({ className }) => {
   return (
@@ -10,6 +11,7 @@ const Flashsale = ({ className }) => {
       <Wrapper>
         <div className={`flex justify-between ${className}`}>
           <Heading date="Today's" title="flash sales" />
+          <CountdownTimer days={3} hours={23} minutes={19} seconds={56} className={'mt-[46px] mr-[400px]'} />
           <Arrow />
         </div>
         <div className="flex flex-col justify-center items-center">
@@ -20,7 +22,10 @@ const Flashsale = ({ className }) => {
             <Itemcard />
           </div>
           <div>
-            <Orangebutton text="View all products" className='h-[50px] w-[200px]' />
+            <Orangebutton
+              text="View all products"
+              className="h-[50px] w-[200px]"
+            />
           </div>
         </div>
       </Wrapper>
