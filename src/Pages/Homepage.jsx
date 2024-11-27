@@ -7,7 +7,6 @@ import Banner from "../components/Layout/Banner";
 import Ourproducts from "../components/features/home/Ourproducts";
 import Featured from "../components/features/home/Featured";
 import Servicefeatures from "../components/features/home/Servicefeatures";
-import CountdownTimer from "../components/Timer";
 
 const Homepage = () => {
   return (

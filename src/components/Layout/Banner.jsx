@@ -1,4 +1,3 @@
-import React from "react";
 import Wrapper from "../common/Wrapper";
 import jbl from "../../assets/images/jbl.png";
 

@@ -11,7 +11,7 @@ const Flashsale = ({ className }) => {
       <Wrapper>
         <div className={`flex justify-between ${className}`}>
           <Heading date="Today's" title="flash sales" />
-          <CountdownTimer days={3} hours={23} minutes={19} seconds={56} className={'mt-[46px] mr-[400px]'} />
+          <CountdownTimer days={3} hours={23} minutes={19} seconds={56} className={'mt-[55px] mr-[400px]'} />
           <Arrow />
         </div>
         <div className="flex flex-col justify-center items-center">

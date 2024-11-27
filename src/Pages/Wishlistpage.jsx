@@ -9,7 +9,7 @@ const Wishlistpage = () => {
       <div className="mt-[80px]">
         <div className="flex flex-col justify-center">
           <div className="flex justify-between">
-            <p>Whislist(4)</p>
+            <p>Whislist(5)</p>
             <Buttonwithoutline text="Move all to cart" className="p-3" />
           </div>
           <div className="flex gap-3 flex-wrap justify-center items-center pt-2 mt-4">
