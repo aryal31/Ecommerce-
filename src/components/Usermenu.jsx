@@ -40,7 +40,7 @@ const Usermenu = () => {
       {userclicked && (
         <div
           ref={dropdownRef}
-          className="absolute top-[100%] right-0 bg-[#7d7d7d] text-white bg-opacity-70 backdrop-blur-lg rounded-lg mt-1 w-[230px]"
+          className="absolute top-[100%] right-0 bg-[#7d7d7d] text-white bg-opacity-70 backdrop-blur-lg rounded-lg mt-1 md:w-[230px] w-[150px]"
         >
           <ul className="flex flex-col">
             <Link
@@ -48,34 +48,34 @@ const Usermenu = () => {
               className="cursor-pointer hover:bg-[#7d7d7d] p-2 rounded-t-lg flex justify-start items-center gap-x-3"
             >
               {" "}
-              <p className="text-[25px]">
+              <p className="md:text-[25px] text-[18px]">
                 <CiUser />
               </p>
-              <p className="text-nowrap">Manage My Account</p>
+              <p className="md:text-nowrap md:text-xl text-[11px]">Manage My Account</p>
             </Link>
             <li className="cursor-pointer hover:bg-[#7d7d7d] p-2 flex justify-start items-center gap-x-3">
-              <p className="text-[25px]">
+              <p className="md:text-[25px] text-[18px]">
                 <FiShoppingBag />
               </p>
-              <p>My Order</p>
+              <p className="md:text-nowrap md:text-xl text-[11px]">My Order</p>
             </li>
             <li className="cursor-pointer hover:bg-[#7d7d7d] p-2 flex items-center gap-x-3">
-              <p className="text-[25px]">
+              <p className="md:text-[25px] text-[18px]">
                 <MdOutlineCancel />
               </p>{" "}
-              My Cancellations
+              <p className="md:text-nowrap md:text-xl text-[11px]">My Cancellations</p>
             </li>
             <li className="cursor-pointer hover:bg-[#7d7d7d] p-2 flex justify-start items-center gap-x-3">
-              <p className="text-[25px]">
+              <p className="md:text-[25px] text-[18px]">
                 <FaRegStar />{" "}
               </p>{" "}
-              My reviews
+              <p className="md:text-nowrap md:text-xl text-[11px]">My reviews</p>
             </li>
             <li className="cursor-pointer hover:bg-[#7d7d7d] p-2 rounded-b-lg flex justify-start items-center gap-x-3">
-              <p className="text-[25px]">
+              <p className="md:text-[25px] text-[18px]">
                 <CiLogout />{" "}
               </p>
-              Logout
+              <p className="md:text-nowrap md:text-xl text-[11px]">logout</p>
             </li>
           </ul>
         </div>
