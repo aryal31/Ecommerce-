@@ -51,31 +51,37 @@ const Usermenu = () => {
               <p className="md:text-[25px] text-[18px]">
                 <CiUser />
               </p>
-              <p className="md:text-nowrap md:text-xl text-[11px]">Manage My Account</p>
+              <p className="md:text-nowrap md:text-[17px] text-[11px]">
+                Manage My Account
+              </p>
             </Link>
             <li className="cursor-pointer hover:bg-[#7d7d7d] p-2 flex justify-start items-center gap-x-3">
               <p className="md:text-[25px] text-[18px]">
                 <FiShoppingBag />
               </p>
-              <p className="md:text-nowrap md:text-xl text-[11px]">My Order</p>
+              <p className="md:text-nowrap md:text-[17px] text-[11px]">My Order</p>
             </li>
             <li className="cursor-pointer hover:bg-[#7d7d7d] p-2 flex items-center gap-x-3">
               <p className="md:text-[25px] text-[18px]">
                 <MdOutlineCancel />
               </p>{" "}
-              <p className="md:text-nowrap md:text-xl text-[11px]">My Cancellations</p>
+              <p className="md:text-nowrap md:text-[17px] text-[11px]">
+                My Cancellations
+              </p>
             </li>
             <li className="cursor-pointer hover:bg-[#7d7d7d] p-2 flex justify-start items-center gap-x-3">
               <p className="md:text-[25px] text-[18px]">
                 <FaRegStar />{" "}
               </p>{" "}
-              <p className="md:text-nowrap md:text-xl text-[11px]">My reviews</p>
+              <p className="md:text-nowrap md:text-[17px] text-[11px]">
+                My reviews
+              </p>
             </li>
             <li className="cursor-pointer hover:bg-[#7d7d7d] p-2 rounded-b-lg flex justify-start items-center gap-x-3">
               <p className="md:text-[25px] text-[18px]">
                 <CiLogout />{" "}
               </p>
-              <p className="md:text-nowrap md:text-xl text-[11px]">logout</p>
+              <p className="md:text-nowrap md:text-[17px] text-[11px]">logout</p>
             </li>
           </ul>
         </div>

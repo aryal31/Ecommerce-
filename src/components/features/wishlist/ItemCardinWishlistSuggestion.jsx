@@ -11,7 +11,7 @@ const ItemCardinWishlistSuggestion = () => {
             -35%
           </div>
           <div className="absolute ml-[230px] mt-1">
-            <div className="bg-white rounded-2xl h-[34px] w-[34px] flex items-center justify-center">
+            <div className="bg-white rounded-2xl h-[34px] w-[34px] flex items-center justify-center cursor-pointer">
               <HiOutlineTrash />
             </div>
           </div>
