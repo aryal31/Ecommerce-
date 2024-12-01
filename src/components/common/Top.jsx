@@ -26,7 +26,7 @@ const Top = () => {
     <div className="bg-black h-8 text-white text-sm pt-1 flex items-center justify-end md:justify-center px-[30px] md:px[40px] lg:px-[135px]">
       <div className="text-center flex-1 hidden md:block">
         Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!
-        <a className="font-bold pl-[10px] underline ">shopNow</a>
+        <a className="font-bold pl-[10px] underline"><span className="cursor-pointer">shopNow</span></a>
       </div>
       <div className="flex items-center justify-end md:justify-center relative">
         <p>English</p>

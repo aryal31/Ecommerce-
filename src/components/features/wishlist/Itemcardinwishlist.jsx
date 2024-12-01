@@ -8,7 +8,7 @@ const Itemcardinwishlist = () => {
     <div className="h-[350px] w-[270px] flex flex-col relative">
       <div className=" bg-[#F5F5F5] h-[250px]">
         <div>
-          <div className="bg-[#db4444] rounded-[5px] w-[60px] h-[30px] text-[#f5f5f5f5] absolute mt-2 ml-3 items-center justify-center flex">
+          <div className="bg-[#db4444] rounded-[5px] w-[60px] h-[30px] text-[#f5f5f5f5] absolute mt-2 ml-3 items-center justify-center flex cursor-default">
             -35%
           </div>
           <div className="absolute ml-[230px] mt-1">

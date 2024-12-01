@@ -44,7 +44,7 @@ const CountdownTimer = ({ days, hours, minutes, seconds, className }) => {
   }, []);
 
   return (
-    <div className={`flex justify-center space-x-4 ${className}`}>
+    <div className={`flex justify-center space-x-4 ${className} md:flex hidden`}>
       <div>
         <div className="text-sm">Days</div>
         <div className="text-4xl font-bold">
