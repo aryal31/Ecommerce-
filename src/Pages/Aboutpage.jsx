@@ -23,9 +23,9 @@ const Aboutpage = () => {
       <div className="">
         <div className="flex gap-[10px] items-center justify-center flex-wrap">
           <div className="w-full md:w-[500px]">
-            <p className="text-[54px] font-semibold">Our story</p>
-            <p className="text-[16px]">{aboutText}</p>
-            <p className="text-[16px]">
+            <p className="text-[30px] md:text-[54px] font-semibold">Our story</p>
+            <p className="md:text-[16px] text-[12px]">{aboutText}</p>
+            <p className="md:text-[16px] text-[12px]">
              {aboutTextnext}
             </p>
           </div>
