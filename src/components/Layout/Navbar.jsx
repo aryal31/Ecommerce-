@@ -2,7 +2,6 @@ import { CiHeart, CiShoppingCart, CiSearch } from "react-icons/ci";
 import Usermenu from "../Usermenu";
 import { NavLink } from "react-router-dom";
 
-<CiSearch />;
 
 const navLinks = [
   // you can add other pages in navbar by just simplying adding the page you want in the array and giving the path to it

@@ -1,7 +1,7 @@
 import React from "react";
 import Wrapper from "../../common/Wrapper";
 import Carouselh from "./Carouselh";
-import {img2,img3,img4,img5} from "../../../assets/images";
+import { img2, img3, img4, img5 } from "../../../assets/images";
 
 const Options = () => {
   let slides = [img2, img3, img4, img5];
@@ -31,7 +31,7 @@ const Options = () => {
             <ul>Babys & toys</ul>
             <ul>groceries & pets</ul>
             <ul>Health & beauty</ul>
-            <ul>office & work</ul>
+            <ul>office & work</ul> 
           </div>
           <div className="border-l-[1px] border-[#c9c9c9c9] self-stretch md:mx-8 order-1"></div>
           <div className="flex xl:ml-[40px] xl:order-1 xl:mt-[20px] mt-[10px] md:max-w-[1180px] xl:max-w-[870px]">

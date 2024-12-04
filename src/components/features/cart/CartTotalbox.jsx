@@ -18,7 +18,7 @@ const CartTotalbox = () => {
         <p>$1750</p>
       </div>
       <div className="items-center justify-center flex">
-      <Orangebutton text='Proceed to Checkout '/>
+        <Orangebutton text="Proceed to Checkout " />
       </div>
     </div>
   );

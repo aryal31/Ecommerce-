@@ -2,7 +2,7 @@ import React from "react";
 import Heading from "../../common/Heading";
 import Arrow from "../../common/Arrow";
 import Wrapper from "../../common/Wrapper";
-import { playstation,speaker,perfume,women} from '../../../assets/images'
+import { playstation, speaker, perfume, women } from "../../../assets/images";
 
 const Featured = () => {
   return (
