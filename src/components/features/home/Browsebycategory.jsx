@@ -3,7 +3,7 @@ import Arrow from "../../common/Arrow";
 import Wrapper from "../../common/Wrapper";
 import { HiOutlineComputerDesktop } from "react-icons/hi2";
 import { BsSmartwatch } from "react-icons/bs";
-import { CiCamera,CiMobile3,CiHeadphones} from "react-icons/ci";
+import { CiCamera, CiMobile3, CiHeadphones } from "react-icons/ci";
 import { LuGamepad } from "react-icons/lu";
 
 const Browsebycategory = () => {

@@ -30,7 +30,7 @@ const Flashsale = () => {
           <div>
             <Orangebutton
               text="View all products"
-              className="h-[50px] w-[200px]"
+              className="h-[45px] w-[200px]"
             />
           </div>
         </div>

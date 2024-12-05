@@ -2,6 +2,7 @@ import React from "react";
 import Wrapper from "../../common/Wrapper";
 import Carouselh from "./Carouselh";
 import { img2, img3, img4, img5 } from "../../../assets/images";
+import { SlArrowRight } from "react-icons/sl";
 
 const Options = () => {
   let slides = [img2, img3, img4, img5];
@@ -14,9 +15,9 @@ const Options = () => {
           <div className="xl:flex flex-col space-y-[5px] mt-[45px] order-1 grid grid-cols-2 md:gap-x-[500px] gap-x-[90px] sm:gap-x-[200px] gap-y-[20px]">
             <ul className="flex items-center space-x-3">
               <li>Woman's fashion</li>
-              {/* <li>
+              <li>
               <SlArrowRight />
-            </li> */}
+            </li>
             </ul>
             <ul className="flex items-center space-x-10">
               <li>Men's fashion</li>

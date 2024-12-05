@@ -8,7 +8,6 @@ const CartPage = () => {
   return (
     <Wrapper>
       <div className="container p-2 md:p-0">
-        {/* // container property sets 100% width of the div */}
         <Breadcrumb
           first="Account"
           second="My Account"
