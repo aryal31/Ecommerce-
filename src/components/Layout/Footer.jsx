@@ -12,20 +12,18 @@ import { NavLink } from "react-router-dom";
 const Footer = () => {
   return (
     <>
-  
       <div className="flex flex-col bg-black items-center whitespace-nowrap mt-4">
-        <div className="flex flex-wrap justify-between px-5 lg:px-[100px] 2xl:px-[135px] text-white pt-[80px] gap-[20px]">
-          <div className="flex flex-col ">
+        <div className="flex flex-col md:flex-row flex-wrap justify-between px-5 lg:px-[100px] 2xl:px-[135px] text-white pt-[80px] gap-[20px]">
+          <div className="flex flex-col mb-6 md:mb-0">
             <ul className="font-bold text-[25px] mb-[24px]">Exclusive</ul>
             <ul className="mb-[16px]">Subscribe</ul>
             <ul className="mb-[16px]">Get 10% off your first order</ul>
-            <div className="flex items-center px-[15px] py-[4px] border-2 border-white bg-transparent rounded-[4px] border-radius-[5px]">
+            <div className="flex items-center px-[15px] py-[4px] border-2 border-white bg-transparent rounded-[4px]">
               <input
                 className="bg-transparent focus:outline-none w-full"
                 type="text"
                 placeholder="Enter your email"
               />
-
               <HiArrowRight className="text-[30px] cursor-pointer" />
             </div>
           </div>
@@ -64,7 +62,7 @@ const Footer = () => {
             <ul className="mb-[16px]">FAQ</ul>
             <ul>Contact</ul>
           </div>
-          <div>
+          <div className="flex flex-col items-center md:items-start">
             <ul className="font-bold text-[20px] mb-[24px]">Download App</ul>
             <ul className="text-[12px] text-[#FAFAFA] mb-[16px]">
               Save $3 with app new user only
